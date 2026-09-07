@@ -1508,7 +1508,7 @@ pre code {
     transition: all 0.2s ease-in-out;
   }
   .links-of-author a::before {
-    background: #e3c350;
+    background: #a49fd6;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -3250,4 +3250,10 @@ header.header {
 .header-inner {
   max-width: 1050px !important;
   width: 100% !important;
+}
+/* 讓行內數學公式（Inline Math）自動與前後文字保持距離 */
+.mjx-chtml,
+.MathJax,
+.math.inline {
+  margin: 0 0.15em !important;
 }
