@@ -229,7 +229,7 @@ mjx-container[display="true"] + br {
 
 
 <nav class="site-nav">
-  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-bell fa-fw"></i>Home</a></li><li class="menu-item menu-item-docs"><a href="/docs/" rel="section"><i class="fa fa-book fa-fw"></i>Docs</a></li><li class="menu-item menu-item-plugins"><a href="/plugins/" rel="section"><i class="fa fa-flask fa-fw"></i>Plugins</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">96</span></a></li>
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-bell fa-fw"></i>Home</a></li><li class="menu-item menu-item-docs"><a href="/docs/" rel="section"><i class="fa fa-book fa-fw"></i>Docs</a></li><li class="menu-item menu-item-plugins"><a href="/plugins/" rel="section"><i class="fa fa-flask fa-fw"></i>Plugins</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">35</span></a></li>
       <li class="menu-item menu-item-search">
         <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
         </a>
@@ -294,7 +294,7 @@ mjx-container[display="true"] + br {
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">96</span>
+          <span class="site-state-item-count">35</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -350,7 +350,7 @@ mjx-container[display="true"] + br {
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://theme-next.js.org/next-8-13-0-released/">
+    <link itemprop="mainEntityOfPage" href="https://theme-next.js.org/next-6-0-2-released/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/next.png">
@@ -368,7 +368,7 @@ mjx-container[display="true"] + br {
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/next-8-13-0-released/" class="post-title-link" itemprop="url">NexT 8.13.0 Released</a>
+          <a href="/next-6-0-2-released/" class="post-title-link" itemprop="url">NexT 6.0.2 Released</a>
         </h2>
 
         <div class="post-meta-container">
@@ -379,7 +379,7 @@ mjx-container[display="true"] + br {
       </span>
       <span class="post-meta-item-text">Posted on</span>
 
-      <time title="Created: 2022-09-10 16:03:39" itemprop="dateCreated datePublished" datetime="2022-09-10T16:03:39Z">2022-09-10</time>
+      <time title="Created: 2018-01-20 16:46:25" itemprop="dateCreated datePublished" datetime="2018-01-20T16:46:25Z">2018-01-20</time>
     </span>
 
   
@@ -392,27 +392,38 @@ mjx-container[display="true"] + br {
     
     
     <div class="post-body" itemprop="articleBody">
-          <!-- Release notes generated using configuration in .github/release.yml at v8.13.0 -->
+          <h2 id="Breaking-changes"><a href="#Breaking-changes" class="headerlink" title="Breaking changes"></a>Breaking changes</h2><h3 id="MathJax-32-See-docs-for-details"><a href="#MathJax-32-See-docs-for-details" class="headerlink" title="MathJax (#32) [See docs for details]"></a>MathJax (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMzI=">#32<i class="fa fa-external-link-alt"></i></span>) [See <a href="/docs/third-party-services/math-equations.html">docs</a> for details]</h3><h4 id="Old-configuration"><a href="#Old-configuration" class="headerlink" title="Old configuration:"></a>Old configuration:</h4><figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="deletion">-# MathJax Support</span></span><br><span class="line"><span class="deletion">-mathjax:</span></span><br><span class="line"><span class="deletion">-  enable: false</span></span><br><span class="line"><span class="deletion">-  per_page: false</span></span><br><span class="line"><span class="deletion">- cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML</span></span><br></pre></td></tr></table></figure>
 
-<h2 id="What-s-Changed"><a href="#What-s-Changed" class="headerlink" title="What&#39;s Changed"></a>What&#39;s Changed</h2><h3 id="🌟-New-Features"><a href="#🌟-New-Features" class="headerlink" title="🌟 New Features"></a>🌟 New Features</h3><ul>
-<li>Add matomo as an analytics provider by @foliet in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvNTUz">https://github.com/next-theme/hexo-theme-next/pull/553<i class="fa fa-external-link-alt"></i></span></li>
+<h4 id="New-configuration"><a href="#New-configuration" class="headerlink" title="New configuration:"></a>New configuration:</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Math Equations Render Support</span></span><br><span class="line"><span class="attr">math:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Default(false) will load mathjax/katex script EVERY PAGE</span></span><br><span class="line">  <span class="comment"># If you set to true, you need to add &#x27;mathjax: true&#x27; in Front Matter of post</span></span><br><span class="line">  <span class="comment"># in order to render math equations in post</span></span><br><span class="line">  <span class="attr">per_page:</span> <span class="literal">false</span></span><br><span class="line"></span><br><span class="line">  <span class="attr">engine:</span> <span class="string">mathjax</span></span><br><span class="line">  <span class="comment">#engine: katex</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># hexo-rendering-pandoc (or hexo-renderer-kramed) needed to full MathJax support.</span></span><br><span class="line">  <span class="attr">mathjax:</span></span><br><span class="line">    <span class="comment"># For newMathJax CDN (cdnjs.cloudflare.com) with fallback to oldMathJax (cdn.mathjax.org).</span></span><br><span class="line">    <span class="attr">cdn:</span> <span class="string">//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML</span></span><br><span class="line">    <span class="comment"># For direct link to MathJax.js with CloudFlare CDN (cdnjs.cloudflare.com).</span></span><br><span class="line">    <span class="comment">#cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML</span></span><br><span class="line">    <span class="comment"># For automatic detect latest version link to MathJax.js and get from CloudFlare.</span></span><br><span class="line">    <span class="comment">#cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># hexo-renderer-markdown-it-plus (or hexo-renderer-markdown-it with markdown-it-katex plugin)</span></span><br><span class="line">  <span class="comment"># needed to full Katex support.</span></span><br><span class="line">  <span class="attr">katex:</span></span><br><span class="line">    <span class="comment"># Use Katex 0.7.1 as default</span></span><br><span class="line">    <span class="attr">cdn:</span> <span class="string">//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css</span></span><br><span class="line">    <span class="comment"># If you want to try the latest version of Katex, use one below instead</span></span><br><span class="line">    <span class="comment">#cdn: //cdn.jsdelivr.net/katex/latest/katex.min.css</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="Features"><a href="#Features" class="headerlink" title="Features"></a>Features</h2><ul>
+<li>Added <code>katex</code> support (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMzI=">#32<i class="fa fa-external-link-alt"></i></span>) (See breaking changes above)</li>
+<li>Added: Support to lazy load the disqus comments (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMzQ=">#34<i class="fa fa-external-link-alt"></i></span>)<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">disqus:</span></span><br><span class="line">  <span class="attr">lazyload:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></li>
+<li>Added <code>cheers_enabled</code> config option (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNDM=">#43<i class="fa fa-external-link-alt"></i></span>)<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Enable &quot;cheers&quot; for archive page.</span></span><br><span class="line"><span class="attr">cheers_enabled:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></li>
+<li>Added <code>pangu.js</code> instead of auto_spacing in hexo (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNTE=">#51<i class="fa fa-external-link-alt"></i></span>, <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNTY=">#56<i class="fa fa-external-link-alt"></i></span>)<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Pangu Support</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/theme-next/theme-next-pangu</span></span><br><span class="line"><span class="comment"># For more information: https://github.com/vinta/pangu.js</span></span><br><span class="line"><span class="attr">pangu:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></li>
+<li>Added <code>updated_diff</code> option to <code>post_meta</code> (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNTA=">#50<i class="fa fa-external-link-alt"></i></span>)<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">post_meta:</span></span><br><span class="line">  <span class="attr">created_at:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">updated_at:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">updated_diff:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></li>
+<li>Added: Load custom files from outside the theme (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMzE=">#31<i class="fa fa-external-link-alt"></i></span>, <span class="exturl" data-url="aHR0cDovL2dpdGh1Yi5jb20vdGhlbWUtbmV4dC9oZXhvLXRoZW1lLW5leHQvY29tbWl0L2Y5NjhmZmMxZjRlNjhkYTUzZmYxOTliZTZmZWE0YjUxOThmZjQzNjc=">f968ffc<i class="fa fa-external-link-alt"></i></span>, <span class="exturl" data-url="aHR0cDovL2dpdGh1Yi5jb20vdGhlbWUtbmV4dC9oZXhvLXRoZW1lLW5leHQvY29tbWl0LzEyZmUxMzExNTkwODllMGRjMGUyNjI1MWIyN2YzZDJmNzVkNDY5NDA=">12fe131<i class="fa fa-external-link-alt"></i></span>, <span class="exturl" data-url="aHR0cDovL2dpdGh1Yi5jb20vdGhlbWUtbmV4dC9oZXhvLXRoZW1lLW5leHQvY29tbWl0LzFjYjRkMDg2YmQzMWMwNjE3NjRjZWFkZGRjODJhNzI5ZTRkYzNmZDU=">1cb4d08<i class="fa fa-external-link-alt"></i></span>, <span class="exturl" data-url="aHR0cDovL2dpdGh1Yi5jb20vdGhlbWUtbmV4dC9oZXhvLXRoZW1lLW5leHQvY29tbWl0Lzg3NDQyMzhjYzU3NGUyYjNlOWMzMzQzMzBhYTVmNGE3ZDg2M2FmOTY=">8744238<i class="fa fa-external-link-alt"></i></span>)<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Redefine custom file paths. Introduced in NexT v6.0.2.</span></span><br><span class="line"><span class="comment"># If commented, will be used default custom file paths.</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># For example, you want to put your custom styles file</span></span><br><span class="line"><span class="comment"># outside theme directory in root `source/_data`, set</span></span><br><span class="line"><span class="comment"># `styles: source/_data/styles.styl`</span></span><br><span class="line"><span class="attr">custom_file_path:</span></span><br><span class="line">  <span class="comment">#head: source/_data/head.swig</span></span><br><span class="line">  <span class="attr">header:</span> <span class="string">source/_data/header.swig</span></span><br><span class="line">  <span class="comment">#sidebar: source/_data/sidebar.swig</span></span><br><span class="line"></span><br><span class="line">  <span class="attr">styles:</span> <span class="string">source/_data/styles.styl</span></span><br><span class="line">  <span class="comment">#mixins: source/_data/mixins.styl</span></span><br><span class="line">  <span class="attr">variables:</span> <span class="string">source/_data/variables.styl</span></span><br></pre></td></tr></table></figure></li>
 </ul>
-<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="addition">+# Matomo Analytics</span></span><br><span class="line"><span class="addition">+# See: https://matomo.org/</span></span><br><span class="line"><span class="addition">+matomo:</span></span><br><span class="line"><span class="addition">+  enable: false</span></span><br><span class="line"><span class="addition">+  server_url: # https://www.example.com/</span></span><br><span class="line"><span class="addition">+  site_id: # &lt;your site id&gt;</span></span><br></pre></td></tr></table></figure>
-<h3 id="⭐-Features"><a href="#⭐-Features" class="headerlink" title="⭐ Features"></a>⭐ Features</h3><ul>
-<li>Upgrade to disqusjs@3 by @stevenjoezhang in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvNTI5">https://github.com/next-theme/hexo-theme-next/pull/529<i class="fa fa-external-link-alt"></i></span></li>
+<h2 id="Optimizations"><a href="#Optimizations" class="headerlink" title="Optimizations"></a>Optimizations</h2><ul>
+<li>Updated google-analytics.swig (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNDU=">#45<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Updated translation for the DATA-FILES.md changes. (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNDc=">#47<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Updated <code>&lt;img src=&quot;/image-url&quot; class=&quot;full-image&quot; /&gt;</code> BUG (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNTI=">#52<i class="fa fa-external-link-alt"></i></span>, <span class="exturl" data-url="aHR0cDovL2dpdGh1Yi5jb20vdGhlbWUtbmV4dC9oZXhvLXRoZW1lLW5leHQvY29tbWl0LzVhNzBmZDMyYzU1NjU3NzFlOTNkZTVjMzY0YjQ1OTZjNWExOTdlMDc=">5a70fd3<i class="fa fa-external-link-alt"></i></span>)</li>
 </ul>
-<h3 id="🐞-Bug-Fixes"><a href="#🐞-Bug-Fixes" class="headerlink" title="🐞 Bug Fixes"></a>🐞 Bug Fixes</h3><ul>
-<li>Fix server_url for lean-analytics by @stevenjoezhang in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvNTU1">https://github.com/next-theme/hexo-theme-next/pull/555<i class="fa fa-external-link-alt"></i></span></li>
+<h2 id="Bug-Fixes"><a href="#Bug-Fixes" class="headerlink" title="Bug Fixes"></a>Bug Fixes</h2><ul>
+<li>Fixed misleading description of gitment (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMjI=">#22<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Fixed: move needmoreshare_css to head (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMjY=">#26<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Fixed: Turn OFF javascript with motion enable result in a blank page [fix added] (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMjc=">#27<i class="fa fa-external-link-alt"></i></span>, <span class="exturl" data-url="aHR0cDovL2dpdGh1Yi5jb20vdGhlbWUtbmV4dC9oZXhvLXRoZW1lLW5leHQvY29tbWl0L2QyYmU0ZmFkZTFmYzY4MTgzNzM0NjNjZjNhNmUzMWU4MjkzNWI0NTM=">d2be4fa<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Fixed a position bug of the github_banner on the mobile layout. (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMjk=">#29<i class="fa fa-external-link-alt"></i></span>, <span class="exturl" data-url="aHR0cDovL2dpdGh1Yi5jb20vdGhlbWUtbmV4dC9oZXhvLXRoZW1lLW5leHQvY29tbWl0LzMzMzdiNTA1NzRmOTMzNGVlOTEyNDEzNWQ2ZmFkOTBiZmQxZTA1YjM=">3337b50<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Fixed underlined category under title ends in an extra blank [fix added] (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMzY=">#36<i class="fa fa-external-link-alt"></i></span>, <span class="exturl" data-url="aHR0cDovL2dpdGh1Yi5jb20vdGhlbWUtbmV4dC9oZXhvLXRoZW1lLW5leHQvY29tbWl0LzA4ZDM1YmUxYzkyYjQ1OTZlNmEzYzY3MmRjYjBjMGZiMzIwODhhMzE=">08d35be<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Fixed: Add comment.enable to switch comment conveniently (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMzk=">#39<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Fixed: <code>&lt;link rel=&quot;canonical&quot; href=&quot;URL&quot;/&gt;</code> is wrong! [fix added] (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNDA=">#40<i class="fa fa-external-link-alt"></i></span>, <span class="exturl" data-url="aHR0cDovL2dpdGh1Yi5jb20vdGhlbWUtbmV4dC9oZXhvLXRoZW1lLW5leHQvY29tbWl0L2JhZDQzMzQ3NWEzY2RjYzQyMDgwN2FjODAwOGE1MDE4NTU4ZTA2MjI=">bad4334<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Fixed an issue about the categories&#x2F;tags count. (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNDI=">#42<i class="fa fa-external-link-alt"></i></span>)</li>
+<li><strong>Fixed</strong>: Override theme&#39;s <code>scheme</code> from main config [fix added] (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNDQ=">#44<i class="fa fa-external-link-alt"></i></span>, <span class="exturl" data-url="aHR0cDovL2dpdGh1Yi5jb20vdGhlbWUtbmV4dC9oZXhvLXRoZW1lLW5leHQvY29tbWl0LzFiMGI1M2EzNTUxODRkYjY1YjJmMTkzNDljN2IxMzcyZjE4MjUxNzQ=">1b0b53a<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Fixed <code>reading_progress</code> appear in index (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNTU=">#55<i class="fa fa-external-link-alt"></i></span>)</li>
 </ul>
-<h3 id="🌀-External-Changes"><a href="#🌀-External-Changes" class="headerlink" title="🌀 External Changes"></a>🌀 External Changes</h3><ul>
-<li>Update dependency eslint to v8.23.0 by @renovate in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvNTUy">https://github.com/next-theme/hexo-theme-next/pull/552<i class="fa fa-external-link-alt"></i></span></li>
-<li>Replace nyc with c8 (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC9hYWNjNDgzZmMyYjRiYWFhMmYwMWU4MzYxZTZmNjgzM2RlNDU0OTA0">aacc483<i class="fa fa-external-link-alt"></i></span>)</li>
-</ul>
-<h2 id="New-Contributors"><a href="#New-Contributors" class="headerlink" title="New Contributors"></a>New Contributors</h2><ul>
-<li>@foliet made their first contribution in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvNTUz">https://github.com/next-theme/hexo-theme-next/pull/553<i class="fa fa-external-link-alt"></i></span></li>
-</ul>
-<p><strong>Full Changelog</strong>: <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbXBhcmUvdjguMTIuMy4uLnY4LjEzLjA=">https://github.com/next-theme/hexo-theme-next/compare/v8.12.3...v8.13.0<i class="fa fa-external-link-alt"></i></span></p>
-<p><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3JlbGVhc2VzL3RhZy92OC4xMy4w">Detailed changes for NexT v8.13.0<i class="fa fa-external-link-alt"></i></span></p>
+<hr>
+<p>For full changes, see the <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L2NvbXBhcmUvdjYuMC4xLi4udjYuMC4y">comparison between 6.0.1 and 6.0.2<i class="fa fa-external-link-alt"></i></span></p>
+<p><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3JlbGVhc2VzL3RhZy92Ni4wLjI=">Detailed changes for NexT v6.0.2<i class="fa fa-external-link-alt"></i></span></p>
 
       
     </div>
@@ -439,7 +450,7 @@ mjx-container[display="true"] + br {
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://theme-next.js.org/next-8-12-3-released/">
+    <link itemprop="mainEntityOfPage" href="https://theme-next.js.org/next-6-0-1-released/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/next.png">
@@ -457,7 +468,7 @@ mjx-container[display="true"] + br {
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/next-8-12-3-released/" class="post-title-link" itemprop="url">NexT 8.12.3 Released</a>
+          <a href="/next-6-0-1-released/" class="post-title-link" itemprop="url">NexT 6.0.1 Released</a>
         </h2>
 
         <div class="post-meta-container">
@@ -468,7 +479,7 @@ mjx-container[display="true"] + br {
       </span>
       <span class="post-meta-item-text">Posted on</span>
 
-      <time title="Created: 2022-08-02 03:40:23" itemprop="dateCreated datePublished" datetime="2022-08-02T03:40:23Z">2022-08-02</time>
+      <time title="Created: 2018-01-10 16:13:05" itemprop="dateCreated datePublished" datetime="2018-01-10T16:13:05Z">2018-01-10</time>
     </span>
 
   
@@ -481,12 +492,31 @@ mjx-container[display="true"] + br {
     
     
     <div class="post-body" itemprop="articleBody">
-          <h2 id="🌀-External-Changes"><a href="#🌀-External-Changes" class="headerlink" title="🌀 External Changes"></a>🌀 External Changes</h2><ul>
-<li>Update dependency eslint to v8.20.0 (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvNTQ1">#545<i class="fa fa-external-link-alt"></i></span>)</li>
+          <h2 id="Breaking-changes"><a href="#Breaking-changes" class="headerlink" title="Breaking changes"></a>Breaking changes</h2><h3 id="Remove-Duoshuo-14"><a href="#Remove-Duoshuo-14" class="headerlink" title="Remove Duoshuo (#14)"></a>Remove Duoshuo (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTQ=">#14<i class="fa fa-external-link-alt"></i></span>)</h3><h4 id="Old-configuration"><a href="#Old-configuration" class="headerlink" title="Old configuration:"></a>Old configuration:</h4><figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="deletion">-# Duoshuo ShortName</span></span><br><span class="line"><span class="deletion">-#duoshuo_shortname:</span></span><br><span class="line"></span><br><span class="line"><span class="deletion">-# Share</span></span><br><span class="line"><span class="deletion">-#duoshuo_share: true</span></span><br><span class="line"></span><br><span class="line"><span class="deletion">-# Make duoshuo show UA</span></span><br><span class="line"><span class="deletion">-# user_id must NOT be null when admin_enable is true!</span></span><br><span class="line"><span class="deletion">-# you can visit http://dev.duoshuo.com get duoshuo user id.</span></span><br><span class="line"><span class="deletion">-duoshuo_info:</span></span><br><span class="line"><span class="deletion">-  ua_enable: true</span></span><br><span class="line"><span class="deletion">-  admin_enable: false</span></span><br><span class="line"><span class="deletion">-  user_id: 0</span></span><br><span class="line"><span class="deletion">-  #admin_nickname: Author</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="Menu-Icons-2412fbc"><a href="#Menu-Icons-2412fbc" class="headerlink" title="Menu Icons (2412fbc)"></a>Menu Icons (<span class="exturl" data-url="aHR0cDovL2dpdGh1Yi5jb20vdGhlbWUtbmV4dC9oZXhvLXRoZW1lLW5leHQvY29tbWl0LzI0MTJmYmM2ZjBkZjZkNTU4ZWRjZDExMDIxYjBmYWY4ZGRmY2U0NjU=">2412fbc<i class="fa fa-external-link-alt"></i></span>)</h3><h4 id="Old-configuration-1"><a href="#Old-configuration-1" class="headerlink" title="Old configuration:"></a>Old configuration:</h4><figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="deletion">-# Enable/Disable menu icons. </span></span><br><span class="line"><span class="deletion">-menu_icons: </span></span><br><span class="line"><span class="deletion">-  enable: true</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="New-configuration"><a href="#New-configuration" class="headerlink" title="New configuration:"></a>New configuration:</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Enable/Disable menu icons / item badges. </span></span><br><span class="line"><span class="attr">menu_settings:</span> </span><br><span class="line">  <span class="attr">icons:</span> <span class="literal">true</span> </span><br></pre></td></tr></table></figure>
+
+<h2 id="Features"><a href="#Features" class="headerlink" title="Features"></a>Features</h2><ul>
+<li>Added <code>reading_progress</code> (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNQ==">#5<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Several improvements in main menu on all schemes. (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvOA==">#8<i class="fa fa-external-link-alt"></i></span>, <span class="exturl" data-url="aHR0cDovL2dpdGh1Yi5jb20vdGhlbWUtbmV4dC9oZXhvLXRoZW1lLW5leHQvY29tbWl0LzI0MTJmYmM2ZjBkZjZkNTU4ZWRjZDExMDIxYjBmYWY4ZGRmY2U0NjU=">2412fbc<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Added «Follow me on GitHub» banner option. (<span class="exturl" data-url="aHR0cDovL2dpdGh1Yi5jb20vdGhlbWUtbmV4dC9oZXhvLXRoZW1lLW5leHQvY29tbWl0L2NhZjA3MzhjNDk2MGUzNjdkNDMxY2MzMDM4MDFkZDY5MzVmMjg1OGE=">caf0738<i class="fa fa-external-link-alt"></i></span>)</li>
+</ul>
+<h2 id="Optimizations"><a href="#Optimizations" class="headerlink" title="Optimizations"></a>Optimizations</h2><ul>
+<li>Clean <code>duoshuo</code> plugin due support discontinued from June 1, 2017 (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTQ=">#14<i class="fa fa-external-link-alt"></i></span>, <span class="exturl" data-url="aHR0cDovL2dpdGh1Yi5jb20vdGhlbWUtbmV4dC9oZXhvLXRoZW1lLW5leHQvY29tbWl0LzBlNWFiMDY4MWI4Njc3ZWM0YjU4NzM0YzM3MDA0NDBmYjQ5OGI2ZWI=">0e5ab06<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Update path on Local Search dependencies. (<span class="exturl" data-url="aHR0cDovL2dpdGh1Yi5jb20vdGhlbWUtbmV4dC9oZXhvLXRoZW1lLW5leHQvY29tbWl0L2ZlYjE5Njg3N2Q1MzU1MmI0NDNiZjRlZjliODJiOWViZGM3N2YyY2Y=">feb1968<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Update config for FancyBox 2 &amp; 3. (<span class="exturl" data-url="aHR0cDovL2dpdGh1Yi5jb20vdGhlbWUtbmV4dC9oZXhvLXRoZW1lLW5leHQvY29tbWl0L2ZkODliMjlhOGQyOGFjOWI4N2VmZjIyZGJlMTA0ZGMxY2EwYWIwYjY=">fd89b29<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Updated MathJax CDN links &amp; added short docs to them. (<span class="exturl" data-url="aHR0cDovL2dpdGh1Yi5jb20vdGhlbWUtbmV4dC9oZXhvLXRoZW1lLW5leHQvY29tbWl0L2JlMzUyOGZkNTA1OTZlOWM2N2FjMWUzZWU1N2Y1NGNjMTJmMDZmNDk=">be3528f<i class="fa fa-external-link-alt"></i></span>)</li>
+</ul>
+<h2 id="Bug-Fixes"><a href="#Bug-Fixes" class="headerlink" title="Bug Fixes"></a>Bug Fixes</h2><ul>
+<li>Fixed a bug of the reward and the wechat-subscriber template (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNg==">#6<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Fixed: In mobile, menu content will cover side bar (Muse scheme).</li>
+<li>Fixed menu items excess spaces. (<span class="exturl" data-url="aHR0cDovL2dpdGh1Yi5jb20vdGhlbWUtbmV4dC9oZXhvLXRoZW1lLW5leHQvY29tbWl0LzA2ZjlkOGIzMTY1N2Q4YzYxMWUzNWIwZTNiMTdjMmJkYWZjMzZkMjQ=">06f9d8b<i class="fa fa-external-link-alt"></i></span>)</li>
 </ul>
 <hr>
-<p>For full changes, see the <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbXBhcmUvdjguMTIuMi4uLnY4LjEyLjM=">comparison between v8.12.2 and v8.12.3<i class="fa fa-external-link-alt"></i></span></p>
-<p><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3JlbGVhc2VzL3RhZy92OC4xMi4z">Detailed changes for NexT v8.12.3<i class="fa fa-external-link-alt"></i></span></p>
+<p>For full changes, see the <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L2NvbXBhcmUvdjYuMC4wLi4udjYuMC4x">comparison between 6.0.0 and 6.0.1<i class="fa fa-external-link-alt"></i></span></p>
+<p><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3JlbGVhc2VzL3RhZy92Ni4wLjE=">Detailed changes for NexT v6.0.1<i class="fa fa-external-link-alt"></i></span></p>
 
       
     </div>
@@ -513,7 +543,7 @@ mjx-container[display="true"] + br {
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://theme-next.js.org/next-8-12-2-released/">
+    <link itemprop="mainEntityOfPage" href="https://theme-next.js.org/next-6-0-0-released/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/next.png">
@@ -531,7 +561,7 @@ mjx-container[display="true"] + br {
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/next-8-12-2-released/" class="post-title-link" itemprop="url">NexT 8.12.2 Released</a>
+          <a href="/next-6-0-0-released/" class="post-title-link" itemprop="url">NexT 6.0.0 Released</a>
         </h2>
 
         <div class="post-meta-container">
@@ -542,7 +572,7 @@ mjx-container[display="true"] + br {
       </span>
       <span class="post-meta-item-text">Posted on</span>
 
-      <time title="Created: 2022-07-05 15:41:43" itemprop="dateCreated datePublished" datetime="2022-07-05T15:41:43Z">2022-07-05</time>
+      <time title="Created: 2018-01-02 14:49:45" itemprop="dateCreated datePublished" datetime="2018-01-02T14:49:45Z">2018-01-02</time>
     </span>
 
   
@@ -555,102 +585,23 @@ mjx-container[display="true"] + br {
     
     
     <div class="post-body" itemprop="articleBody">
-          <h2 id="🌀-External-Changes"><a href="#🌀-External-Changes" class="headerlink" title="🌀 External Changes"></a>🌀 External Changes</h2><ul>
-<li>Update actions&#x2F;setup-python action to v4 (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvNTMx">#531<i class="fa fa-external-link-alt"></i></span>)</li>
-<li>Update dependency eslint to v8.19.0 (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvNTMw">#530<i class="fa fa-external-link-alt"></i></span>)</li>
+          <p>Because NexT is growing up with each year, there are more and more external libs, so:</p>
+<ul>
+<li>General maintenance became a harder for all who not only use it, but help with development too.</li>
+<li>Generation speed became slower and slower with each new library. Half of unused libs copied to public dirs for all users and search engines see all this libs too. It&#39;s mostly waste files for half NexT users.</li>
+<li>Full weight of NexT distributive at least decrease about 2x, which provides faster download &#x2F; update speed.</li>
 </ul>
-<hr>
-<p>For full changes, see the <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbXBhcmUvdjguMTIuMS4uLnY4LjEyLjI=">comparison between v8.12.1 and v8.12.2<i class="fa fa-external-link-alt"></i></span></p>
-<p><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3JlbGVhc2VzL3RhZy92OC4xMi4y">Detailed changes for NexT v8.12.2<i class="fa fa-external-link-alt"></i></span></p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://theme-next.js.org/next-8-12-1-released/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/next.png">
-      <meta itemprop="name" content="Theme NexT">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="NexT">
-      <meta itemprop="description" content="Stay Simple. Stay NexT.">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content=" | NexT">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/next-8-12-1-released/" class="post-title-link" itemprop="url">NexT 8.12.1 Released</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2022-06-01 19:15:09" itemprop="dateCreated datePublished" datetime="2022-06-01T19:15:09Z">2022-06-01</time>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="🐞-Bug-Fixes"><a href="#🐞-Bug-Fixes" class="headerlink" title="🐞 Bug Fixes"></a>🐞 Bug Fixes</h2><ul>
-<li>Fix double quotes inside cloudflare analytics HTML attribute (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvNTIw">#520<i class="fa fa-external-link-alt"></i></span>)</li>
-<li>Optimize the position of copy-button (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvNTA4">#508<i class="fa fa-external-link-alt"></i></span>)</li>
+<p>In other words: this changes increase <strong>development speed</strong>, <strong>generation speed</strong> and <strong>download speed</strong>.</p>
+<h3 id="Changes"><a href="#Changes" class="headerlink" title="Changes"></a>Changes</h3><p>There are no hard breaking changes between 5.1.x and 6.0.x versions. It&#39;s change major version to 6 because:</p>
+<ul>
+<li><mark class="label primary">CHANGED</mark> Main repo was rebased from [iissnan's][] profile to [theme-next][] organization.</li>
+<li><mark class="label info">IMPROVED</mark> Most libraries under the `next/source/lib` directory was moved out to [external repos under NexT organization][theme-next].</li>
+<li><mark class="label info">IMPROVED</mark> 3rd-party plugin [hexo-wordcount][] was replaced by [hexo-symbols-count-time][] because `hexo-symbols-count-time` no have any external nodejs dependencies, no have [language filter][] which causes better performance on speed at site generation.</li>
+<li><mark class="label success">ADDED</mark> Cache option to increase content generation speed.</li>
 </ul>
-<h2 id="🛠-Improvements"><a href="#🛠-Improvements" class="headerlink" title="🛠 Improvements"></a>🛠 Improvements</h2><ul>
-<li>Minify algolia logo if not enabled (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvNTE0">#514<i class="fa fa-external-link-alt"></i></span>)</li>
-<li>Change the default CDN provider from jsdelivr to cdnjs (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvNTA3">#507<i class="fa fa-external-link-alt"></i></span>)</li>
-</ul>
-<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">vendors:</span><br><span class="line"><span class="deletion">-  plugins: jsdelivr</span></span><br><span class="line"><span class="addition">+  plugins: cdnjs</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="🌀-External-Changes"><a href="#🌀-External-Changes" class="headerlink" title="🌀 External Changes"></a>🌀 External Changes</h2><ul>
-<li>Update dependency hexo to v6.2.0 (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvNTE4">#518<i class="fa fa-external-link-alt"></i></span>)</li>
-<li>Update dependency eslint to v8.16.0 (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvNTE2">#516<i class="fa fa-external-link-alt"></i></span>)</li>
-<li>Update dependency mocha to v10 (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvNTEx">#511<i class="fa fa-external-link-alt"></i></span>)</li>
-</ul>
-<h2 id="🌍-Localization"><a href="#🌍-Localization" class="headerlink" title="🌍 Localization"></a>🌍 Localization</h2><ul>
-<li>New Crowdin updates (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvNTIy">#522<i class="fa fa-external-link-alt"></i></span>)</li>
-</ul>
-<hr>
-<p>For full changes, see the <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbXBhcmUvdjguMTEuMS4uLnY4LjEyLjE=">comparison between v8.11.1 and v8.12.1<i class="fa fa-external-link-alt"></i></span></p>
-<p><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3JlbGVhc2VzL3RhZy92OC4xMi4x">Detailed changes for NexT v8.12.1<i class="fa fa-external-link-alt"></i></span></p>
+<h3 id="Full-Changes"><a href="#Full-Changes" class="headerlink" title="Full Changes"></a>Full Changes</h3><p>You can also see <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3JlbGVhc2VzL3RhZy92Ni4wLjA=">full changes for NexT v6.0.0<i class="fa fa-external-link-alt"></i></span></p>
+<h3 id="Update-from-Version-5"><a href="#Update-from-Version-5" class="headerlink" title="Update from Version 5"></a>Update from Version 5</h3><p>See how to <a href="/docs/getting-started/upgrade.html">update from v5 to v6</a> guide.</p>
+<h3 id="3rd-party-Libraries"><a href="#3rd-party-Libraries" class="headerlink" title="3rd-party Libraries"></a>3rd-party Libraries</h3><p>See <a href="/docs/third-party-services/#Adding-Plugins">adding plugins</a> section.</p>
 
       
     </div>
@@ -670,7 +621,7 @@ mjx-container[display="true"] + br {
 
 
   <nav class="pagination">
-    <a class="extend prev" rel="prev" title="Previous page" aria-label="Previous page" href="/page/8/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/8/">8</a><span class="page-number current">9</span><a class="page-number" href="/page/10/">10</a><span class="space">&hellip;</span><a class="page-number" href="/page/24/">24</a><a class="extend next" rel="next" title="Next page" aria-label="Next page" href="/page/10/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" title="Previous page" aria-label="Previous page" href="/page/8/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/8/">8</a><span class="page-number current">9</span>
   </nav>
 
 </div>

@@ -229,7 +229,7 @@ mjx-container[display="true"] + br {
 
 
 <nav class="site-nav">
-  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-bell fa-fw"></i>Home</a></li><li class="menu-item menu-item-docs"><a href="/docs/" rel="section"><i class="fa fa-book fa-fw"></i>Docs</a></li><li class="menu-item menu-item-plugins"><a href="/plugins/" rel="section"><i class="fa fa-flask fa-fw"></i>Plugins</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">96</span></a></li>
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-bell fa-fw"></i>Home</a></li><li class="menu-item menu-item-docs"><a href="/docs/" rel="section"><i class="fa fa-book fa-fw"></i>Docs</a></li><li class="menu-item menu-item-plugins"><a href="/plugins/" rel="section"><i class="fa fa-flask fa-fw"></i>Plugins</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">35</span></a></li>
       <li class="menu-item menu-item-search">
         <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
         </a>
@@ -294,7 +294,7 @@ mjx-container[display="true"] + br {
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">96</span>
+          <span class="site-state-item-count">35</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -350,7 +350,7 @@ mjx-container[display="true"] + br {
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://theme-next.js.org/next-8-22-0-released/">
+    <link itemprop="mainEntityOfPage" href="https://theme-next.js.org/next-7-2-0-released/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/next.png">
@@ -368,7 +368,7 @@ mjx-container[display="true"] + br {
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/next-8-22-0-released/" class="post-title-link" itemprop="url">NexT 8.22.0 Released</a>
+          <a href="/next-7-2-0-released/" class="post-title-link" itemprop="url">NexT 7.2.0 Released</a>
         </h2>
 
         <div class="post-meta-container">
@@ -379,7 +379,7 @@ mjx-container[display="true"] + br {
       </span>
       <span class="post-meta-item-text">Posted on</span>
 
-      <time title="Created: 2025-01-01 08:58:02" itemprop="dateCreated datePublished" datetime="2025-01-01T08:58:02Z">2025-01-01</time>
+      <time title="Created: 2019-07-01 14:21:33" itemprop="dateCreated datePublished" datetime="2019-07-01T14:21:33Z">2019-07-01</time>
     </span>
 
   
@@ -392,44 +392,42 @@ mjx-container[display="true"] + br {
     
     
     <div class="post-body" itemprop="articleBody">
-          <!-- Release notes generated using configuration in .github/release.yml at v8.22.0 -->
+          <h2 id="💥-Breaking-Changes"><a href="#💥-Breaking-Changes" class="headerlink" title="💥 Breaking Changes"></a>💥 Breaking Changes</h2><h3 id="Remove-gitment-support-939"><a href="#Remove-gitment-support-939" class="headerlink" title="Remove gitment support (#939)"></a>Remove gitment support (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvOTM5">#939<i class="fa fa-external-link-alt"></i></span>)</h3><p>In NexT <code>_config.yml</code>:</p>
+<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="deletion">-# Gitment</span></span><br><span class="line"><span class="deletion">-# Introduction: https://github.com/imsun/gitment</span></span><br><span class="line"><span class="deletion">-gitment:</span></span><br><span class="line"><span class="deletion">-  enable: false</span></span><br><span class="line"><span class="deletion">-  mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway</span></span><br><span class="line"><span class="deletion">-  count: true # Show comments count in post meta area</span></span><br><span class="line"><span class="deletion">-  lazy: false # Comments lazy loading with a button</span></span><br><span class="line"><span class="deletion">-  cleanly: false # Hide &#x27;Powered by ...&#x27; on footer, and more</span></span><br><span class="line"><span class="deletion">-  language: # Force language, or auto switch by theme</span></span><br><span class="line"><span class="deletion">-  github_user: # MUST HAVE, Your Github Username</span></span><br><span class="line"><span class="deletion">-  github_repo: # MUST HAVE, The name of the repo you use to store Gitment comments</span></span><br><span class="line"><span class="deletion">-  client_id: # MUST HAVE, Github client id for the Gitment</span></span><br><span class="line"><span class="deletion">-  client_secret: # EITHER this or proxy_gateway, Github access secret token for the Gitment</span></span><br><span class="line"><span class="deletion">-  proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect</span></span><br><span class="line"><span class="deletion">-  redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled</span></span><br></pre></td></tr></table></figure>
 
-<h2 id="What-s-Changed"><a href="#What-s-Changed" class="headerlink" title="What&#39;s Changed"></a>What&#39;s Changed</h2><h3 id="⭐-Features"><a href="#⭐-Features" class="headerlink" title="⭐ Features"></a>⭐ Features</h3><ul>
-<li>Switch to Google Fonts v2 API (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC9iZWM0ZWE5MDMyNGQ5OGI0MDZjMzgzNzA2MTJlZDg4MDZjMDM4MmQw">bec4ea9<i class="fa fa-external-link-alt"></i></span>)</li>
-<li>Duration configuration of <code>motion</code> by @Zerohertz in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvODQ2">https://github.com/next-theme/hexo-theme-next/pull/846<i class="fa fa-external-link-alt"></i></span></li>
+<h3 id="Remove-Han-support-912"><a href="#Remove-Han-support-912" class="headerlink" title="Remove Han support (#912)"></a>Remove Han support (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvOTEy">#912<i class="fa fa-external-link-alt"></i></span>)</h3><p>In NexT <code>_config.yml</code>:</p>
+<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="deletion">-# Han Support</span></span><br><span class="line"><span class="deletion">-# Dependencies: https://github.com/theme-next/theme-next-han</span></span><br><span class="line"><span class="deletion">-han: false</span></span><br><span class="line"><span class="deletion">-</span></span><br><span class="line"><span class="deletion">-  # Internal version: 3.3.0</span></span><br><span class="line"><span class="deletion">-  # See: https://github.com/ethantw/Han</span></span><br><span class="line"><span class="deletion">-  # Example:</span></span><br><span class="line"><span class="deletion">-  # han: //cdn.jsdelivr.net/npm/han-css@3/dist/han.min.css</span></span><br><span class="line"><span class="deletion">-  # han: //cdnjs.cloudflare.com/ajax/libs/Han/3.3.0/han.min.css</span></span><br><span class="line"><span class="deletion">-  han:</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="🌀-External-Changes"><a href="#🌀-External-Changes" class="headerlink" title="🌀 External Changes"></a>🌀 External Changes</h2><ul>
+<li>Remove unneeded leancloud-storage in <code>theme.vendors</code> (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvOTI3">#927<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Make Valine available (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvOTI2">#926<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Upgrade the internal jQuery to v3.4.1 (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvOTAz">#903<i class="fa fa-external-link-alt"></i></span>)</li>
 </ul>
-<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">motion:</span><br><span class="line"><span class="addition">+  duration: 200</span></span><br></pre></td></tr></table></figure>
-<h3 id="🐞-Bug-Fixes"><a href="#🐞-Bug-Fixes" class="headerlink" title="🐞 Bug Fixes"></a>🐞 Bug Fixes</h3><ul>
-<li>Fix figcaption style (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC8xN2I1N2RhMzFhODdmOWM0N2RiMmY0NGI3NzM2NWZjMDc3YmMxM2Q5">17b57da<i class="fa fa-external-link-alt"></i></span>)</li>
-<li>Fix unit test (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC8xYjY5NTU3MzVkNDA2ZGE4MGVlYTJhZGU5YzNmODYyMWYwZDFkNjU1">1b69557<i class="fa fa-external-link-alt"></i></span>)</li>
-<li>Fix SCRIPT1028 caused by async by @wherewhere in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvODUy">https://github.com/next-theme/hexo-theme-next/pull/852<i class="fa fa-external-link-alt"></i></span></li>
-<li>Fix .menu-item-active::after style (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC81ODAwNGU4MTgwNTg0ZmQ3NTA3ZDVmNzgxN2Y5YzJiMDYzYjEwZmUz">58004e8<i class="fa fa-external-link-alt"></i></span>)</li>
+<h2 id="⭐-Features"><a href="#⭐-Features" class="headerlink" title="⭐ Features"></a>⭐ Features</h2><ul>
+<li>Provide an optional icon option for tags at the bottom of the post (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvODk2">#896<i class="fa fa-external-link-alt"></i></span>)</li>
 </ul>
-<h3 id="🛠-Improvements"><a href="#🛠-Improvements" class="headerlink" title="🛠 Improvements"></a>🛠 Improvements</h3><ul>
-<li>Clean up style (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC9jZjcwMWExM2YxN2E4OTYwYTFiMjcxN2M3OWFjMTU4OTI0ZDcwN2U3">cf701a1<i class="fa fa-external-link-alt"></i></span>)</li>
-<li>Use scrollbar-gutter (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC82NDc3MmIwZGVjZWE4NTI0YzkyZTBmN2MwYTQ5NDQwYzc1YWNmNzlj">64772b0<i class="fa fa-external-link-alt"></i></span>)</li>
-<li>Use auto-fill in link-grid (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC82NTQ4ZDBiODY1YjE0M2YwOGQ3ZjBkZTZjOTQ4NGM3ZjYyMDc3ZTRi">6548d0b<i class="fa fa-external-link-alt"></i></span>)</li>
-<li>Remove type from script tag (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC9hNzc3NzhhNjc2MmQ4NGUyOGZkZjAyYmU3Y2YzY2Y1ZDM4YzhjOTgx">a77778a<i class="fa fa-external-link-alt"></i></span>)</li>
-<li>Remove CSS vendor prefixes (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC9iMGE0Mjg1MzNhYWE2YmIxZTViMGQzMTdlM2E3OTE0NzkyYjQ3MmY0">b0a4285<i class="fa fa-external-link-alt"></i></span>)</li>
-<li>Optimize .links-of-blogroll-item style (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC8zZmIxODFmZDVkZDEzYzg1OTE5ZDZlOGFjZGY0ZmVjNzAwNjBiNTE2">3fb181f<i class="fa fa-external-link-alt"></i></span>)</li>
-<li>Reorder imports (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC83N2FkYmY1OWQ4OTllNzAzNGUxYmE5ZWEyNDVlOWZjMDZlOTdmYTJj">77adbf5<i class="fa fa-external-link-alt"></i></span>)</li>
+<h2 id="🛠-Improvements"><a href="#🛠-Improvements" class="headerlink" title="🛠 Improvements"></a>🛠 Improvements</h2><ul>
+<li>Refactoring post-meta-divider (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvOTM3">#937<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Remove unnecessary statements in swig templates (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvOTI4">#928<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Use hyphen instead of en dash (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvOTA3">#907<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Ignore leancloud visitor from localhost (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvOTE2">#916<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Fix word spelling (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvOTEz">#913<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Correct the outdated version number of FontAwesome (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvOTA1">#905<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Improve page rendering by deferring disqus loading (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvODkx">#891<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Make Tabs flexible (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNzA0">#704<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Restore the previous selection for <code>copy_button</code> (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvODkw">#890<i class="fa fa-external-link-alt"></i></span>)</li>
 </ul>
-<h3 id="🌀-External-Changes"><a href="#🌀-External-Changes" class="headerlink" title="🌀 External Changes"></a>🌀 External Changes</h3><ul>
-<li>New action GitHub Releases To Discord (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC81NjM5YmU5YmZmZjI0ZTYwOGY3OWZhMDkyYmU5NWM5YzNmMTc3M2Q2">5639be9<i class="fa fa-external-link-alt"></i></span>)</li>
-<li>Update dependency eslint to v9.17.0 by @renovate in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvODQ3">https://github.com/next-theme/hexo-theme-next/pull/847<i class="fa fa-external-link-alt"></i></span></li>
-<li>Update dependency stylelint to v16.12.0 by @renovate in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvODUx">https://github.com/next-theme/hexo-theme-next/pull/851<i class="fa fa-external-link-alt"></i></span></li>
-<li>Update dependency mocha to v11 by @renovate in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvODUz">https://github.com/next-theme/hexo-theme-next/pull/853<i class="fa fa-external-link-alt"></i></span></li>
-<li>Update dependency c8 to v10.1.3 by @renovate in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvODU3">https://github.com/next-theme/hexo-theme-next/pull/857<i class="fa fa-external-link-alt"></i></span></li>
+<h2 id="🐞-Bug-Fixes"><a href="#🐞-Bug-Fixes" class="headerlink" title="🐞 Bug Fixes"></a>🐞 Bug Fixes</h2><ul>
+<li>Refactoring post-meta-divider (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvOTM3">#937<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Fix referer used by LiveRe on non-post pages (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvOTM0">#934<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Force include source&#x2F;lib&#x2F;font-awesome&#x2F; (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvODMy">#832<i class="fa fa-external-link-alt"></i></span>)</li>
 </ul>
-<h3 id="📖-Documentation"><a href="#📖-Documentation" class="headerlink" title="📖 Documentation"></a>📖 Documentation</h3><ul>
-<li>Update community URLs in README (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC84YmRlYTJiZmM2ZDVlOWE0NGVlMjViNjNkN2Y1NjBiZjJlYjNlMjBm">8bdea2b<i class="fa fa-external-link-alt"></i></span>)</li>
+<h2 id="📖-Documentation"><a href="#📖-Documentation" class="headerlink" title="📖 Documentation"></a>📖 Documentation</h2><ul>
+<li>Add detailed description about RSS (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvODk1">#895<i class="fa fa-external-link-alt"></i></span>)</li>
 </ul>
-<h2 id="New-Contributors"><a href="#New-Contributors" class="headerlink" title="New Contributors"></a>New Contributors</h2><ul>
-<li>@Zerohertz made their first contribution in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvODQ2">https://github.com/next-theme/hexo-theme-next/pull/846<i class="fa fa-external-link-alt"></i></span></li>
-<li>@wherewhere made their first contribution in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvODUy">https://github.com/next-theme/hexo-theme-next/pull/852<i class="fa fa-external-link-alt"></i></span></li>
-</ul>
-<p><strong>Full Changelog</strong>: <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbXBhcmUvdjguMjEuMS4uLnY4LjIyLjA=">https://github.com/next-theme/hexo-theme-next/compare/v8.21.1...v8.22.0<i class="fa fa-external-link-alt"></i></span></p>
-<p><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3JlbGVhc2VzL3RhZy92OC4yMi4w">Detailed changes for NexT v8.22.0<i class="fa fa-external-link-alt"></i></span></p>
+<hr>
+<p>For full changes, see the <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L2NvbXBhcmUvdjcuMS4yLi4udjcuMi4w">comparison between v7.1.2 and v7.2.0<i class="fa fa-external-link-alt"></i></span></p>
+<p><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3JlbGVhc2VzL3RhZy92Ny4yLjA=">Detailed changes for NexT v7.2.0<i class="fa fa-external-link-alt"></i></span></p>
 
       
     </div>
@@ -456,7 +454,7 @@ mjx-container[display="true"] + br {
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://theme-next.js.org/next-8-21-1-released/">
+    <link itemprop="mainEntityOfPage" href="https://theme-next.js.org/next-7-1-2-released/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/next.png">
@@ -474,7 +472,7 @@ mjx-container[display="true"] + br {
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/next-8-21-1-released/" class="post-title-link" itemprop="url">NexT 8.21.1 Released</a>
+          <a href="/next-7-1-2-released/" class="post-title-link" itemprop="url">NexT 7.1.2 Released</a>
         </h2>
 
         <div class="post-meta-container">
@@ -485,7 +483,7 @@ mjx-container[display="true"] + br {
       </span>
       <span class="post-meta-item-text">Posted on</span>
 
-      <time title="Created: 2024-11-20 10:05:46" itemprop="dateCreated datePublished" datetime="2024-11-20T10:05:46Z">2024-11-20</time>
+      <time title="Created: 2019-06-01 05:34:50" itemprop="dateCreated datePublished" datetime="2019-06-01T05:34:50Z">2019-06-01</time>
     </span>
 
   
@@ -498,23 +496,22 @@ mjx-container[display="true"] + br {
     
     
     <div class="post-body" itemprop="articleBody">
-          <!-- Release notes generated using configuration in .github/release.yml at v8.21.1 -->
-
-<h2 id="What-s-Changed"><a href="#What-s-Changed" class="headerlink" title="What&#39;s Changed"></a>What&#39;s Changed</h2><h3 id="⭐-Features"><a href="#⭐-Features" class="headerlink" title="⭐ Features"></a>⭐ Features</h3><ul>
-<li>Allow specifying noindex for robots by @AlliotTech in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvODQx">https://github.com/next-theme/hexo-theme-next/pull/841<i class="fa fa-external-link-alt"></i></span></li>
-<li>Support vendors.busuanzi config by @iamxiaojianzheng in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvODQz">https://github.com/next-theme/hexo-theme-next/pull/843<i class="fa fa-external-link-alt"></i></span></li>
+          <h2 id="🌀-External-Changes"><a href="#🌀-External-Changes" class="headerlink" title="🌀 External Changes"></a>🌀 External Changes</h2><ul>
+<li>Change the internal path of quicklink (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvODgz">#883<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Upgrade Facebook Graph API to v3.3 (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvODc2">#876<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Make <code>symbols_count_time</code> faster (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvODYy">#862<i class="fa fa-external-link-alt"></i></span>)</li>
 </ul>
-<h3 id="🌀-External-Changes"><a href="#🌀-External-Changes" class="headerlink" title="🌀 External Changes"></a>🌀 External Changes</h3><ul>
-<li>Update dependency eslint to v9.14.0 by @renovate in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvODM4">https://github.com/next-theme/hexo-theme-next/pull/838<i class="fa fa-external-link-alt"></i></span></li>
-<li>Update dependency stylelint to v16.10.0 by @renovate in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvODQw">https://github.com/next-theme/hexo-theme-next/pull/840<i class="fa fa-external-link-alt"></i></span></li>
-<li>Update dependency mocha to v10.8.2 by @renovate in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvODQ0">https://github.com/next-theme/hexo-theme-next/pull/844<i class="fa fa-external-link-alt"></i></span></li>
+<h2 id="🐞-Bug-Fixes"><a href="#🐞-Bug-Fixes" class="headerlink" title="🐞 Bug Fixes"></a>🐞 Bug Fixes</h2><ul>
+<li>Force HTTPS of <code>google-analytics.swig</code>. Again. (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvODgx">#881<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Fix Github gist bug with copy button (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvODYx">#861<i class="fa fa-external-link-alt"></i></span>)</li>
 </ul>
-<h2 id="New-Contributors"><a href="#New-Contributors" class="headerlink" title="New Contributors"></a>New Contributors</h2><ul>
-<li>@AlliotTech made their first contribution in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvODQx">https://github.com/next-theme/hexo-theme-next/pull/841<i class="fa fa-external-link-alt"></i></span></li>
-<li>@iamxiaojianzheng made their first contribution in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvODQz">https://github.com/next-theme/hexo-theme-next/pull/843<i class="fa fa-external-link-alt"></i></span></li>
+<h2 id="📖-Documentation"><a href="#📖-Documentation" class="headerlink" title="📖 Documentation"></a>📖 Documentation</h2><ul>
+<li>Expressions and translations in CONTRIBUTING.md (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvODg1">#885<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Fix a few typo errors in docs (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvODY0">#864<i class="fa fa-external-link-alt"></i></span>)</li>
 </ul>
-<p><strong>Full Changelog</strong>: <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbXBhcmUvdjguMjEuMC4uLnY4LjIxLjE=">https://github.com/next-theme/hexo-theme-next/compare/v8.21.0...v8.21.1<i class="fa fa-external-link-alt"></i></span></p>
-<p><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3JlbGVhc2VzL3RhZy92OC4yMS4x">Detailed changes for NexT v8.21.1<i class="fa fa-external-link-alt"></i></span></p>
+<hr>
+<p>For full changes, see the <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L2NvbXBhcmUvdjcuMS4xLi4udjcuMS4y">comparison between v7.1.1 and v7.1.2<i class="fa fa-external-link-alt"></i></span></p>
+<p><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3JlbGVhc2VzL3RhZy92Ny4xLjI=">Detailed changes for NexT v7.1.2<i class="fa fa-external-link-alt"></i></span></p>
 
       
     </div>
@@ -541,7 +538,7 @@ mjx-container[display="true"] + br {
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://theme-next.js.org/next-8-21-0-released/">
+    <link itemprop="mainEntityOfPage" href="https://theme-next.js.org/next-7-1-1-released/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/next.png">
@@ -559,7 +556,7 @@ mjx-container[display="true"] + br {
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/next-8-21-0-released/" class="post-title-link" itemprop="url">NexT 8.21.0 Released</a>
+          <a href="/next-7-1-1-released/" class="post-title-link" itemprop="url">NexT 7.1.1 Released</a>
         </h2>
 
         <div class="post-meta-container">
@@ -570,7 +567,7 @@ mjx-container[display="true"] + br {
       </span>
       <span class="post-meta-item-text">Posted on</span>
 
-      <time title="Created: 2024-09-21 03:09:49" itemprop="dateCreated datePublished" datetime="2024-09-21T03:09:49Z">2024-09-21</time>
+      <time title="Created: 2019-05-01 02:30:04" itemprop="dateCreated datePublished" datetime="2019-05-01T02:30:04Z">2019-05-01</time>
     </span>
 
   
@@ -583,53 +580,32 @@ mjx-container[display="true"] + br {
     
     
     <div class="post-body" itemprop="articleBody">
-          <!-- Release notes generated using configuration in .github/release.yml at v8.21.0 -->
-
-<h2 id="What-s-Changed"><a href="#What-s-Changed" class="headerlink" title="What&#39;s Changed"></a>What&#39;s Changed</h2><h3 id="💥-Breaking-Changes"><a href="#💥-Breaking-Changes" class="headerlink" title="💥 Breaking Changes"></a>💥 Breaking Changes</h3><ul>
-<li>Remove local_search.trigger option (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC82NTllODJiNDUyODUwN2ZmNjVhZTM5YjEwZjhmZDRiNDk1ODljZGVj">659e82b<i class="fa fa-external-link-alt"></i></span>)</li>
+          <blockquote>
+<p>Happy International Workers&#39; Day! \(^_^)&#x2F;</p>
+</blockquote>
+<h2 id="🛠-Improvements"><a href="#🛠-Improvements" class="headerlink" title="🛠 Improvements"></a>🛠 Improvements</h2><ul>
+<li>Optimize images (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvODAy">#802<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Update ICP url (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvODI3">#827<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Fix typo in config comments (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvODMz">#833<i class="fa fa-external-link-alt"></i></span>)</li>
 </ul>
-<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">local_search:</span><br><span class="line"><span class="deletion">-  # If auto, trigger search by changing input.</span></span><br><span class="line"><span class="deletion">-  # If manual, trigger search by pressing enter key or search button.</span></span><br><span class="line"><span class="deletion">-  trigger: auto</span></span><br></pre></td></tr></table></figure>
-<h3 id="🌟-New-Features"><a href="#🌟-New-Features" class="headerlink" title="🌟 New Features"></a>🌟 New Features</h3><ul>
-<li>Trigger Search Event when user presses Ctrl + K by @penxian in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvODA0">https://github.com/next-theme/hexo-theme-next/pull/804<i class="fa fa-external-link-alt"></i></span></li>
+<h2 id="🐞-Bug-Fixes"><a href="#🐞-Bug-Fixes" class="headerlink" title="🐞 Bug Fixes"></a>🐞 Bug Fixes</h2><ul>
+<li>CSS bug in Codeblock if string longer than viewport (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvODAz">#803<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Option <code>onmoble</code> for sidebar does not work (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvODA4">#808<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Fixes with <code>mobile_layout_economy</code> option:<ul>
+<li>List items appeared correctly  (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvODE3">#817<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Wrong top padding (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvODI4">#828<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Alignments for several elements (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvODQ5">#849<i class="fa fa-external-link-alt"></i></span>)</li>
 </ul>
-<h3 id="⭐-Features"><a href="#⭐-Features" class="headerlink" title="⭐ Features"></a>⭐ Features</h3><ul>
-<li>Refactor Algolia search: drop instantsearch.js by @stevenjoezhang in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvNzk1">https://github.com/next-theme/hexo-theme-next/pull/795<i class="fa fa-external-link-alt"></i></span></li>
-<li>Support dark mode for note tags in modern style by @sghuang19 in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvODI4">https://github.com/next-theme/hexo-theme-next/pull/828<i class="fa fa-external-link-alt"></i></span></li>
-<li>Add dark color scheme for text selection by @sghuang19 in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvODI5">https://github.com/next-theme/hexo-theme-next/pull/829<i class="fa fa-external-link-alt"></i></span></li>
+</li>
 </ul>
-<h3 id="🐞-Bug-Fixes"><a href="#🐞-Bug-Fixes" class="headerlink" title="🐞 Bug Fixes"></a>🐞 Bug Fixes</h3><ul>
-<li>Fix mermaid folding (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC82NzQyNzM1ZGI0YWU3N2E3M2Q3MDY4ZmUxOTM2MjE3YjUzNjhjZDMx">6742735<i class="fa fa-external-link-alt"></i></span>)</li>
-<li>Fix .menu-item-active::after (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC8wN2FjYjI3Y2M5NGRiNjZmYjA4MWQxNGE1NGViZjkzZmFhZWY0Mzhm">07acb27<i class="fa fa-external-link-alt"></i></span>)</li>
-<li>Fix mermaid copy button (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC81YzAyNDgwMGU2YjQ4NGY4NDQ3ODNhZDM3OTc1OGUzZTU3ZjdhNGIz">5c02480<i class="fa fa-external-link-alt"></i></span>)</li>
-<li>Fix empty innerText (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC9kZGVjYmUzNjI4M2JmN2JlMjYzNGFiMWY4M2FiYWZmMGFjOWY3OTFl">ddecbe3<i class="fa fa-external-link-alt"></i></span>)</li>
-<li>Fix muse.js 404 (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC8wNzA4ZGM3ZTE4Y2MwNmE4MDIwNGMwZDE3Mzc5OWRhYmNjNDVhMDg0">0708dc7<i class="fa fa-external-link-alt"></i></span>)</li>
+<h2 id="🌍-Localization"><a href="#🌍-Localization" class="headerlink" title="🌍 Localization"></a>🌍 Localization</h2><ul>
+<li>Spanish translation (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvODAx">#801<i class="fa fa-external-link-alt"></i></span>, <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvODA2">#806<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Improve French translation (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvODE4">#818<i class="fa fa-external-link-alt"></i></span>, <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvODE5">#819<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Persian translation (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvODUz">#853<i class="fa fa-external-link-alt"></i></span>)</li>
 </ul>
-<h3 id="🛠-Improvements"><a href="#🛠-Improvements" class="headerlink" title="🛠 Improvements"></a>🛠 Improvements</h3><ul>
-<li>Prefer object-shorthand (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC81MjRjMzY5M2YyMWI3ZmQzZDNlZTc1ZTdlNjE0YWZlNzIxN2EwZDdl">524c369<i class="fa fa-external-link-alt"></i></span>)</li>
-<li>Better use of parseInt and Number (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC8xNzI1OWMwMDE4MzA2ODhlN2NmYTc3NWEzYWJmZjk1MTkxODNhOGEz">17259c0<i class="fa fa-external-link-alt"></i></span>)</li>
-<li>Specify transition-property (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC9kYThkYjY5NDIyYmRiYmMzOWY4NzFiM2FkNzljNjBiYWQ1ODAwNzU2">da8db69<i class="fa fa-external-link-alt"></i></span>)</li>
-<li>Use <code>Array.flat</code> in motion.js (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC83ODNiNmZmZThjNjljZTM0NDI5ZTg2MjBlYmMwM2E1ZWZlYWM5MmMw">783b6ff<i class="fa fa-external-link-alt"></i></span>)</li>
-</ul>
-<h3 id="🌀-External-Changes"><a href="#🌀-External-Changes" class="headerlink" title="🌀 External Changes"></a>🌀 External Changes</h3><ul>
-<li>Update dependency stylelint to v16.9.0 by @renovate in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvNzky">https://github.com/next-theme/hexo-theme-next/pull/792<i class="fa fa-external-link-alt"></i></span></li>
-<li>Update dependency eslint to v9.10.0 - autoclosed by @renovate in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvODAw">https://github.com/next-theme/hexo-theme-next/pull/800<i class="fa fa-external-link-alt"></i></span></li>
-<li>Update dependency c8 to v10 by @renovate in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvODA3">https://github.com/next-theme/hexo-theme-next/pull/807<i class="fa fa-external-link-alt"></i></span></li>
-<li>Update dependency mocha to v10.7.3 by @renovate in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvODE0">https://github.com/next-theme/hexo-theme-next/pull/814<i class="fa fa-external-link-alt"></i></span></li>
-<li>Update dependency hexo to v7.3.0 by @renovate in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvODIx">https://github.com/next-theme/hexo-theme-next/pull/821<i class="fa fa-external-link-alt"></i></span></li>
-<li>Update dependency chai to v4.5.0 by @renovate in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvODI1">https://github.com/next-theme/hexo-theme-next/pull/825<i class="fa fa-external-link-alt"></i></span></li>
-</ul>
-<h3 id="📖-Documentation"><a href="#📖-Documentation" class="headerlink" title="📖 Documentation"></a>📖 Documentation</h3><ul>
-<li>Update pull request template (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC8yNjM4NDFiZDdhYmFmYjFhZmRjN2ViODRhNjhhM2RhZDg1NTVjOWQ5">263841b<i class="fa fa-external-link-alt"></i></span>)</li>
-</ul>
-<h3 id="🌍-Localization"><a href="#🌍-Localization" class="headerlink" title="🌍 Localization"></a>🌍 Localization</h3><ul>
-<li>New Crowdin updates by @stevenjoezhang in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvNzk2">https://github.com/next-theme/hexo-theme-next/pull/796<i class="fa fa-external-link-alt"></i></span></li>
-</ul>
-<h2 id="New-Contributors"><a href="#New-Contributors" class="headerlink" title="New Contributors"></a>New Contributors</h2><ul>
-<li>@penxian made their first contribution in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvODA0">https://github.com/next-theme/hexo-theme-next/pull/804<i class="fa fa-external-link-alt"></i></span></li>
-<li>@sghuang19 made their first contribution in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvODI4">https://github.com/next-theme/hexo-theme-next/pull/828<i class="fa fa-external-link-alt"></i></span></li>
-</ul>
-<p><strong>Full Changelog</strong>: <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbXBhcmUvdjguMjAuMC4uLnY4LjIxLjA=">https://github.com/next-theme/hexo-theme-next/compare/v8.20.0...v8.21.0<i class="fa fa-external-link-alt"></i></span></p>
-<p><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3JlbGVhc2VzL3RhZy92OC4yMS4w">Detailed changes for NexT v8.21.0<i class="fa fa-external-link-alt"></i></span></p>
+<hr>
+<p>For full changes, see the <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L2NvbXBhcmUvdjcuMS4wLi4udjcuMS4x">comparison between v7.1.0 and v7.1.1<i class="fa fa-external-link-alt"></i></span></p>
+<p><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3JlbGVhc2VzL3RhZy92Ny4xLjE=">Detailed changes for NexT v7.1.1<i class="fa fa-external-link-alt"></i></span></p>
 
       
     </div>
@@ -656,7 +632,7 @@ mjx-container[display="true"] + br {
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://theme-next.js.org/next-8-20-0-released/">
+    <link itemprop="mainEntityOfPage" href="https://theme-next.js.org/next-7-1-0-released/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/next.png">
@@ -674,7 +650,7 @@ mjx-container[display="true"] + br {
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/next-8-20-0-released/" class="post-title-link" itemprop="url">NexT 8.20.0 Released</a>
+          <a href="/next-7-1-0-released/" class="post-title-link" itemprop="url">NexT 7.1.0 Released</a>
         </h2>
 
         <div class="post-meta-container">
@@ -685,7 +661,7 @@ mjx-container[display="true"] + br {
       </span>
       <span class="post-meta-item-text">Posted on</span>
 
-      <time title="Created: 2024-05-01 13:18:37" itemprop="dateCreated datePublished" datetime="2024-05-01T13:18:37Z">2024-05-01</time>
+      <time title="Created: 2019-04-01 11:19:46" itemprop="dateCreated datePublished" datetime="2019-04-01T11:19:46Z">2019-04-01</time>
     </span>
 
   
@@ -698,42 +674,103 @@ mjx-container[display="true"] + br {
     
     
     <div class="post-body" itemprop="articleBody">
-          <!-- Release notes generated using configuration in .github/release.yml at v8.20.0 -->
+          <blockquote>
+<p>Happy April Fools&#39; Day Guys \(^_^)&#x2F;</p>
+</blockquote>
+<h2 id="💥-Breaking-Changes"><a href="#💥-Breaking-Changes" class="headerlink" title="💥 Breaking Changes"></a>💥 Breaking Changes</h2><h3 id="Usage-of-quicklink-642"><a href="#Usage-of-quicklink-642" class="headerlink" title="Usage of quicklink (#642)"></a>Usage of <code>quicklink</code> (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNjQy">#642<i class="fa fa-external-link-alt"></i></span>)</h3><ul>
+<li>Now quicklink will load on demand by default.</li>
+<li>Add <code>quicklink: true</code> in Front-matter for those pages or posts you want.</li>
+<li>Home page and archive page can be controlled through <code>home</code> and <code>archive</code> option.</li>
+</ul>
+<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">quicklink:</span><br><span class="line">  enable: true</span><br><span class="line"><span class="deletion">- per_page: true</span></span><br><span class="line"><span class="addition">+ home: true # enable or disable quicklink on home page</span></span><br><span class="line"><span class="addition">+ archive: true # enable or disable quicklink on archive page</span></span><br><span class="line"># Add `quicklink: true` in Front-matter to enable quicklink on special page or post</span><br></pre></td></tr></table></figure>
+<h3 id="Some-options-look-more-uniform-in-config-yml-643"><a href="#Some-options-look-more-uniform-in-config-yml-643" class="headerlink" title="Some options look more uniform in _config.yml (#643)"></a>Some options look more uniform in <code>_config.yml</code> (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNjQz">#643<i class="fa fa-external-link-alt"></i></span>)</h3><figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="deletion">- #github_banner: https://github.com/yourname || Follow me on GitHub</span></span><br><span class="line"><span class="addition">+ github_banner:</span></span><br><span class="line"><span class="addition">+  enable: false</span></span><br><span class="line"><span class="addition">+  permalink: https://github.com/yourname</span></span><br><span class="line"><span class="addition">+  title: Follow me on GitHub</span></span><br><span class="line"></span><br><span class="line">post_meta:</span><br><span class="line">  updated_at:</span><br><span class="line"><span class="deletion">-    enabled: true</span></span><br><span class="line"><span class="addition">+    enable: true</span></span><br><span class="line"></span><br><span class="line">wechat_subscriber:</span><br><span class="line"><span class="deletion">-  #enabled: true</span></span><br><span class="line"><span class="addition">+  enable: false</span></span><br><span class="line"></span><br><span class="line">custom_logo:</span><br><span class="line"><span class="deletion">-  enabled: false</span></span><br><span class="line"><span class="addition">+  enable: false</span></span><br><span class="line"></span><br><span class="line"><span class="deletion">-cheers_enabled: true</span></span><br><span class="line"><span class="addition">+cheers: true</span></span><br></pre></td></tr></table></figure>
 
-<h2 id="What-s-Changed"><a href="#What-s-Changed" class="headerlink" title="What&#39;s Changed"></a>What&#39;s Changed</h2><h3 id="💥-Breaking-Changes"><a href="#💥-Breaking-Changes" class="headerlink" title="💥 Breaking Changes"></a>💥 Breaking Changes</h3><ul>
-<li>Feature: display sidebar on mobile for Pisces and Gemini by @triccsr in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvNzEw">https://github.com/next-theme/hexo-theme-next/pull/710<i class="fa fa-external-link-alt"></i></span></li>
+<h3 id="Usage-of-back2top-button-657"><a href="#Usage-of-back2top-button-657" class="headerlink" title="Usage of back2top button (#657)"></a>Usage of <code>back2top</code> button (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNjU3">#657<i class="fa fa-external-link-alt"></i></span>)</h3><figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">sidebar:</span><br><span class="line"><span class="deletion">-  # Back to top in sidebar.</span></span><br><span class="line"><span class="deletion">-  b2t: false</span></span><br><span class="line"><span class="deletion">-  # Scroll percent label in b2t button.</span></span><br><span class="line"><span class="deletion">-  scrollpercent: false</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="addition">+back2top:</span></span><br><span class="line"><span class="addition">+  enable: true</span></span><br><span class="line"><span class="addition">+  # Back to top in sidebar.</span></span><br><span class="line"><span class="addition">+  sidebar: false</span></span><br><span class="line"><span class="addition">+  # Scroll percent label in b2t button.</span></span><br><span class="line"><span class="addition">+  scrollpercent: false</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="🌟-New-Features"><a href="#🌟-New-Features" class="headerlink" title="🌟 New Features"></a>🌟 New Features</h2><ul>
+<li>Range of font size and color to <code>tagcloud</code> (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNjQ4">#648<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>New <code>video</code> and warn when use <code>exturl</code> or <code>extlink</code> (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNjUy">#652<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Mermaid (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNjQ5">#649<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Likely share (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNjc4">#678<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Chatra and Tidio chats service (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNjgx">#681<i class="fa fa-external-link-alt"></i></span>)</li>
+<li><code>safari_rainbow</code> and <code>custom_scrollbar</code> (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNjg2">#686<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>DisqusJS comment system (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNzA1">#705<i class="fa fa-external-link-alt"></i></span>)</li>
 </ul>
-<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">sidebar:</span><br><span class="line"><span class="deletion">-  # Manual define the sidebar width. If commented, will be default for:</span></span><br><span class="line"><span class="deletion">-  # Muse | Mist: 320</span></span><br><span class="line"><span class="deletion">-  # Pisces | Gemini: 240</span></span><br><span class="line"><span class="deletion">-  #width: 300</span></span><br><span class="line"><span class="addition">+  # Sidebar width.</span></span><br><span class="line"><span class="addition">+  # Applicable to Muse | Mist and mobile of Pisces | Gemini.</span></span><br><span class="line"><span class="addition">+  width_expanded: 320</span></span><br><span class="line"><span class="addition">+  # Applicable to desktop of Pisces | Gemini.</span></span><br><span class="line"><span class="addition">+  width_dual_column: 240</span></span><br></pre></td></tr></table></figure>
-<h3 id="🌟-New-Features"><a href="#🌟-New-Features" class="headerlink" title="🌟 New Features"></a>🌟 New Features</h3><ul>
-<li>Add post_count helper (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC8yNmQ2ODJjZmEyOGE1Nzk2ZmQwYzkzODE0ODBiYmM0MDA1NmNhMmY2">26d682c<i class="fa fa-external-link-alt"></i></span>)</li>
-<li>Support for hiding page header (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC9jYTBlNmYwYTBlMGM1ZjQwNTQ1MjhiNTAwMWMzODk1NmVkNjdhMmFh">ca0e6f0<i class="fa fa-external-link-alt"></i></span>)</li>
-<li>Add link posts feature (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC80Y2JhMmEzYzQ0MDNkNjkyYTMyZmE5YWQ2NTM2YTE1NjFhNzViYjRk">4cba2a3<i class="fa fa-external-link-alt"></i></span>)</li>
+<h2 id="⭐-Features"><a href="#⭐-Features" class="headerlink" title="⭐ Features"></a>⭐ Features</h2><ul>
+<li>Load <code>quicklink</code> on demand (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNjM3">#637<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Force language options to Gitalk comment system (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNjUz">#653<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>New <code>pdf</code> tag (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNjU5">#659<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Amount option to <code>tagcloud</code> (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNjYy">#662<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Fancybox for group-picture and post-gallery (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNjY3">#667<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>English support for Valine comment system (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNjc2">#676<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Expand all level option of post TOC (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNjc5">#679<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Icon option to sidebar chat button (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNjg4">#688<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>New <code>text_align</code> option (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNjgy">#682<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Dynamic unlimited <code>reward</code> additions and <code>animation</code> option (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNjk1">#695<i class="fa fa-external-link-alt"></i></span>)</li>
 </ul>
-<h3 id="🐞-Bug-Fixes"><a href="#🐞-Bug-Fixes" class="headerlink" title="🐞 Bug Fixes"></a>🐞 Bug Fixes</h3><ul>
-<li>Fix utterances&#x2F;giscus with pjax by @wangjiezhe in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvNzc5">https://github.com/next-theme/hexo-theme-next/pull/779<i class="fa fa-external-link-alt"></i></span></li>
-<li>Fix undefind in group-pictures (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC8yMTk1YjAxZDhjNjEyM2YxYzcxZTAyNzQxNjE0YWMwZGJjNWUwNjA5">2195b01<i class="fa fa-external-link-alt"></i></span>)</li>
+<h2 id="🛠-Improvements"><a href="#🛠-Improvements" class="headerlink" title="🛠 Improvements"></a>🛠 Improvements</h2><ul>
+<li>Fix bootstrap filename (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNjQw">#640<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Change the spacing between sidebar elements (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNjM4">#638<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Rename loader script for prevent wrong boostrap detection in Wappalyzer (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNjQx">#641<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Update CDN url in <code>_config.yml</code> (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNjY0">#664<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Remove <code>ua_parser</code> excess library (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNjcx">#671<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Make a few documentational edits (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNjcy">#672<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Move stylesheets from <code>.swig</code> to <code>.styl</code> files (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNjgw">#680<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Remove unnecessary CSS prefix &amp; Update normalize.css (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNjgz">#683<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Make <code>site-state-item</code> centered using <code>flex</code> (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNzAw">#700<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Refactor Mist &amp; Muse menu bar using <code>flex</code> (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNzAy">#702<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Remove <code>qihu_site_verification</code> and move some options to <code>SEO Settings</code> (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNzA2">#706<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Make CSS cleaner using <code>tablet-mobile()</code> (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNzI0">#724<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Remove redundant styles (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNzI4">#728<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Make CSS simpler using macro (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNzM4">#738<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Improve canonical path for vision in Google (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNzQ4">#748<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Merge note.styl and note-modern.styl (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNzUw">#750<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Reduce the use of <code>!important</code> for GitHub banner (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNzQ0">#744<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>From now release drafts will maked automatically (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNzY1">#765<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Improve console warning for non-supporting (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNzY2">#766<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Change comparison for Release Drafter Bot</li>
 </ul>
-<h3 id="🛠-Improvements"><a href="#🛠-Improvements" class="headerlink" title="🛠 Improvements"></a>🛠 Improvements</h3><ul>
-<li>Reorder sidebar animation (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC9mNzAxNGQzZjE2MzBkMzA1NzZmMmZkZjVmNGRhMTgyZWY4NzU5NjEy">f7014d3<i class="fa fa-external-link-alt"></i></span>)</li>
-<li>Update .category-list-count style (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC8zZDM0YTExNjNmZWUwNzM5ZTFhZmMyODU5NmVmN2ZkMWQ2Yzg0M2Zm">3d34a11<i class="fa fa-external-link-alt"></i></span>)</li>
-<li>Refactor .menu-item style (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC82YmY5N2Y2ZTQ5ZmRlNjc3OWY1YTQ2ZTA2NGIyZTI1MmNhZjQyYmEw">6bf97f6<i class="fa fa-external-link-alt"></i></span>)</li>
+<h2 id="🐞-Bug-Fixes"><a href="#🐞-Bug-Fixes" class="headerlink" title="🐞 Bug Fixes"></a>🐞 Bug Fixes</h2><ul>
+<li>Diff code hightlight problem (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNjY1">#665<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Lost <code>tracking_id</code> in <code>google_analytics</code> (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNjY4">#668<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>For long mathjax equations with short viewport horizontal scrollbar will appear (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNjY5">#669<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Colored link for modern notes with <code>exturl</code> (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNjg1">#685<i class="fa fa-external-link-alt"></i></span>)</li>
+<li><code>reward</code> button vertical align text (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNjkz">#693<i class="fa fa-external-link-alt"></i></span>)</li>
+<li><code>back2top</code> button on mobile, sidebar item margin and sidebar <code>exturl</code> link color (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNjg0">#684<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Right margin bug on mobile devices (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNzA5">#709<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Typo in Baidu transformation in <code>_config.yml</code> (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNzE0">#714<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Sidebar button style on Pisces and Gemini (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNzM1">#735<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Mathjax <code>li</code> style issue (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNzUy">#752<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Remove <code>no-wrap</code> style from label tag (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNzYz">#763<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Breadcrumbs now work with both <code>*.html</code> and <code>index.html</code> pages (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNzY5">#769<i class="fa fa-external-link-alt"></i></span>)</li>
 </ul>
-<h3 id="🌀-External-Changes"><a href="#🌀-External-Changes" class="headerlink" title="🌀 External Changes"></a>🌀 External Changes</h3><ul>
-<li>Update dependency stylelint to v16.4.0 by @renovate in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvNzc0">https://github.com/next-theme/hexo-theme-next/pull/774<i class="fa fa-external-link-alt"></i></span></li>
-<li>Update dependency mocha to v10.4.0 by @renovate in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvNzc2">https://github.com/next-theme/hexo-theme-next/pull/776<i class="fa fa-external-link-alt"></i></span></li>
-<li>Update dependency hexo-renderer-marked to v6.3.0 by @renovate in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvNzgx">https://github.com/next-theme/hexo-theme-next/pull/781<i class="fa fa-external-link-alt"></i></span></li>
-<li>Update dependency eslint to v9 by @renovate in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvNzgz">https://github.com/next-theme/hexo-theme-next/pull/783<i class="fa fa-external-link-alt"></i></span></li>
-<li>Update dependency hexo to v7.2.0 by @renovate in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvNzkw">https://github.com/next-theme/hexo-theme-next/pull/790<i class="fa fa-external-link-alt"></i></span></li>
+<h2 id="📖-Documentation"><a href="#📖-Documentation" class="headerlink" title="📖 Documentation"></a>📖 Documentation</h2><ul>
+<li>Add more contributors to contributors list (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNjM5">#639<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Make ISSUE and PR template more readable (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNjQ0">#644<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Add CII badge. (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNzI5">#729<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Move some docs from <code>_config.yml</code> to official website (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNzI1">#725<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Update README.md, remove unused URLs (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNzI3">#727<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Add «Reporting Security Bugs» sections. (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNzMw">#730<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Change Riot chat link. (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNzMz">#733<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Add stevenjoezhang as a contributor (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNzQx">#741<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Add «Thanks» section (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNzM5">#739<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Add 1v9 as a contributor (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNzQy">#742<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Add JiangTJ as a contributor (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNzQz">#743<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Update labels and Chinese translation of CONTRIBUTING.md (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNzQ3">#747<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Add liolok as a contributor (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNzU1">#755<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Contributors per line: 6 instead of 7 (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNzU2">#756<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Add ivan-nginx as a contributor (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNzU3">#757<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Add <code>Improvement Need</code> label (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNzY4">#768<i class="fa fa-external-link-alt"></i></span>)</li>
 </ul>
-<h3 id="📖-Documentation"><a href="#📖-Documentation" class="headerlink" title="📖 Documentation"></a>📖 Documentation</h3><ul>
-<li>Remove dollar signs before commands (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC9jZDFhMDgyNzk1MjQ5ZmYyMjJlZjk1Mzg5NzU3M2U3MDU5MjU1YzQw">cd1a082<i class="fa fa-external-link-alt"></i></span>)</li>
+<h2 id="🌍-Localization"><a href="#🌍-Localization" class="headerlink" title="🌍 Localization"></a>🌍 Localization</h2><ul>
+<li>New Crowdin translations (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNjQ3">#647<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>New Crowdin translations (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNjUw">#650<i class="fa fa-external-link-alt"></i></span>)</li>
 </ul>
-<h2 id="New-Contributors"><a href="#New-Contributors" class="headerlink" title="New Contributors"></a>New Contributors</h2><ul>
-<li>@wangjiezhe made their first contribution in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvNzc5">https://github.com/next-theme/hexo-theme-next/pull/779<i class="fa fa-external-link-alt"></i></span></li>
-<li>@triccsr made their first contribution in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvNzEw">https://github.com/next-theme/hexo-theme-next/pull/710<i class="fa fa-external-link-alt"></i></span></li>
-</ul>
-<p><strong>Full Changelog</strong>: <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbXBhcmUvdjguMTkuMi4uLnY4LjIwLjA=">https://github.com/next-theme/hexo-theme-next/compare/v8.19.2...v8.20.0<i class="fa fa-external-link-alt"></i></span></p>
-<p><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3JlbGVhc2VzL3RhZy92OC4yMC4w">Detailed changes for NexT v8.20.0<i class="fa fa-external-link-alt"></i></span></p>
+<hr>
+<p>For full changes, see the <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L2NvbXBhcmUvdjcuMC4xLi4udjcuMS4w">comparison between 7.0.1 and 7.1.0<i class="fa fa-external-link-alt"></i></span></p>
+<p><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3JlbGVhc2VzL3RhZy92Ny4xLjA=">Detailed changes for NexT v7.1.0<i class="fa fa-external-link-alt"></i></span></p>
 
       
     </div>
@@ -753,7 +790,7 @@ mjx-container[display="true"] + br {
 
 
   <nav class="pagination">
-    <a class="extend prev" rel="prev" title="Previous page" aria-label="Previous page" href="/page/3/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/3/">3</a><span class="page-number current">4</span><a class="page-number" href="/page/5/">5</a><span class="space">&hellip;</span><a class="page-number" href="/page/24/">24</a><a class="extend next" rel="next" title="Next page" aria-label="Next page" href="/page/5/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" title="Previous page" aria-label="Previous page" href="/page/3/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/3/">3</a><span class="page-number current">4</span><a class="page-number" href="/page/5/">5</a><span class="space">&hellip;</span><a class="page-number" href="/page/9/">9</a><a class="extend next" rel="next" title="Next page" aria-label="Next page" href="/page/5/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 </div>

@@ -1508,7 +1508,7 @@ pre code {
     transition: all 0.2s ease-in-out;
   }
   .links-of-author a::before {
-    background: #82ffff;
+    background: #e3c350;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -3238,4 +3238,16 @@ header.header {
   background: none;
   border: 0;
   color: #e34603;
+}
+.content-wrap {
+  max-width: 1200px !important;
+  width: 100% !important;
+}
+.main-inner {
+  max-width: 1050px !important;
+  width: 100% !important;
+}
+.header-inner {
+  max-width: 1050px !important;
+  width: 100% !important;
 }
