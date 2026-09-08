@@ -1508,7 +1508,7 @@ pre code {
     transition: all 0.2s ease-in-out;
   }
   .links-of-author a::before {
-    background: #29edff;
+    background: #ba28f5;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -3256,4 +3256,65 @@ header.header {
 .MathJax,
 .math.inline {
   margin: 0 0.15em !important;
+}
+.category-content-fade {
+  opacity: 0;
+  animation: categoryContentFadeIn 0.7s ease-out forwards;
+}
+.category-children ul {
+  margin-top: 1em;
+}
+.category-children li {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+.category-children li a {
+  font-size: inherit;
+}
+.category-difficulty-stars {
+  display: inline-block;
+  margin-left: 1.5em;
+  font-size: 1.2em;
+  letter-spacing: 0.15em;
+}
+.difficulty-group {
+  margin-bottom: 2em;
+}
+.difficulty-title {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+.difficulty-post {
+  margin: 0.35em 0;
+  font-size: 1.05em;
+}
+.difficulty-post a {
+  border-bottom: none;
+}
+.difficulty-general-posts {
+  margin-top: 1em;
+  padding-top: 0.5em;
+  border-top: 1px solid #eee;
+}
+.category-back-link {
+  margin-top: 2em;
+  padding-top: 1em;
+}
+.category-back-link a {
+  display: inline-block;
+  font-size: 0.95em;
+  opacity: 0.8;
+}
+.category-back-link a:hover {
+  opacity: 1;
+}
+@keyframes categoryContentFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
