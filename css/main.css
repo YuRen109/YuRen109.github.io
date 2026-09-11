@@ -1508,7 +1508,7 @@ pre code {
     transition: all 0.2s ease-in-out;
   }
   .links-of-author a::before {
-    background: #5d5c7e;
+    background: #5b16ff;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -3307,6 +3307,142 @@ header.header {
 }
 .category-back-link a:hover {
   opacity: 1;
+}
+/* ========================================
+   Mathematical Environment Index
+   ======================================== */
+.math-index {
+  margin: 1em 0 1.5em 0;
+}
+.math-index-list {
+  margin: 0;
+  padding-left: 1.5em;
+}
+.math-index-item {
+  margin: 0.3em 0;
+}
+.math-index-item a {
+  text-decoration: none;
+}
+.math-index-name {
+  font-weight: normal;
+}
+/* ========================================
+   Mathematical Environments
+   ======================================== */
+.math-env {
+  margin: 1.8em 0;
+  padding: 1em 0.2em 0.9em 0.2em;
+  border-top: 1px solid rgba(128,128,128,0.28);
+  border-bottom: 1px solid rgba(128,128,128,0.18);
+  box-sizing: border-box;
+}
+/* Environment heading */
+.math-env-heading {
+  margin: 0 0 0.8em 0;
+  padding: 0;
+  font-size: 1.15em;
+  font-weight: bold;
+  line-height: 1.5;
+  border: none;
+}
+/* Optional theorem name */
+.math-env-name {
+  font-weight: normal;
+}
+/* Environment content */
+.math-env-content {
+  margin: 0;
+}
+/* Remove unnecessary margins */
+.math-env-content > :first-child {
+  margin-top: 0;
+}
+.math-env-content > :last-child {
+  margin-bottom: 0;
+}
+/* Cross reference */
+.math-env-reference {
+  text-decoration: none;
+}
+/* Invalid / unknown reference */
+.math-env-reference-error {
+  font-weight: bold;
+}
+/* =========================================================
+   Sub-statements
+   ========================================================= */
+.math-sub {
+  margin: 1.1em 0;
+}
+.math-sub-heading {
+  margin: 0 0 0.5em 0;
+  padding: 0;
+  font-weight: bold;
+}
+.math-sub-content {
+  margin: 0;
+}
+/* =========================================================
+   Proof environment
+   ========================================================= */
+details.custom-proof-details {
+  margin: 1.5em 0;
+  padding: 1em 1.2em;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+/* Proof title */
+details.custom-proof-details > summary {
+  list-style: none;
+  cursor: pointer;
+  outline: none;
+  display: inline-block;
+  font-style: italic;
+  font-weight: bold;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
+/* Remove browser default marker */
+details.custom-proof-details > summary::-webkit-details-marker {
+  display: none;
+}
+/* Hover */
+details.custom-proof-details > summary:hover {
+  opacity: 0.8;
+}
+/* Arrow */
+details.custom-proof-details > summary::after {
+  content: "▶";
+  display: inline-block;
+  margin-left: 0.5em;
+  font-style: normal;
+  font-size: 0.75em;
+  vertical-align: middle;
+  transition: transform 0.2s ease;
+  color: inherit;
+}
+/* Rotate arrow when opened */
+details.custom-proof-details[open] > summary::after {
+  transform: rotate(90deg);
+}
+/* Proof content */
+.proof-content {
+  padding-left: 0;
+  margin-top: 0.8em;
+}
+/* QED */
+.proof-content::after {
+  content: "□";
+  display: block;
+  text-align: right;
+  font-size: 1.5em;
+  line-height: 1;
+  margin-top: 0.5em;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
 }
 @keyframes categoryContentFadeIn {
   from {
