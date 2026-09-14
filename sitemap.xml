@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://yuren109.github.io/IMO-2023-shortlist-A3/</loc>
+    
+    <lastmod>2026-09-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://yuren109.github.io/top_page/</loc>
     
     <lastmod>2026-09-14</lastmod>
@@ -101,7 +110,7 @@
 
   
   <url>
-    <loc>https://yuren109.github.io/tags/Modular-Arithmetic-Parity-Factorization/</loc>
+    <loc>https://yuren109.github.io/tags/Diophantine-Equation-Inequality-Symmetry-Bounding/</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -109,20 +118,6 @@
   
   <url>
     <loc>https://yuren109.github.io/tags/Divisibility-Modular-Arithmetic-Prime-Powers-Factorization/</loc>
-    <lastmod>2026-09-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://yuren109.github.io/tags/Functional-Equation-Injectivity-Recurrence-Relation/</loc>
-    <lastmod>2026-09-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://yuren109.github.io/tags/Diophantine-Equation-Inequality-Symmetry-Bounding/</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -137,6 +132,27 @@
   
   <url>
     <loc>https://yuren109.github.io/tags/Functional-Equation-Recurrence-Relation-Divisibility/</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuren109.github.io/tags/Inequality-Symmetry/</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuren109.github.io/tags/Modular-Arithmetic-Parity-Factorization/</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuren109.github.io/tags/Functional-Equation-Injectivity-Recurrence-Relation/</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -166,14 +182,14 @@
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/categories/mathematics/math-olympiad-problems/Number-Theory/</loc>
+    <loc>https://yuren109.github.io/categories/mathematics/math-olympiad-problems/algebra/</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/categories/mathematics/math-olympiad-problems/algebra/</loc>
+    <loc>https://yuren109.github.io/categories/mathematics/math-olympiad-problems/Number-Theory/</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
