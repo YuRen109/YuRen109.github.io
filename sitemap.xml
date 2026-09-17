@@ -2,7 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://yuren109.github.io/FMO-1999-P2/</loc>
+    <loc>https://yuren109.github.io/BMO2-2024-P2/</loc>
+    
+    <lastmod>2026-09-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuren109.github.io/KMO-R2-junior-2012-P3/</loc>
     
     <lastmod>2026-09-17</lastmod>
     
@@ -13,16 +22,16 @@
   <url>
     <loc>https://yuren109.github.io/AMO-2016-P1/</loc>
     
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-09-17</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/KMO-R2-junior-2012-P3/</loc>
+    <loc>https://yuren109.github.io/FMO-1999-P2/</loc>
     
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-09-17</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -83,15 +92,6 @@
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/BMO2-2024-P2/</loc>
-    
-    <lastmod>2026-09-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://yuren109.github.io/BMO2-1995-P3/</loc>
     
     <lastmod>2026-09-12</lastmod>
@@ -144,7 +144,7 @@
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/tags/Diophantine-Equation-Bounding/</loc>
+    <loc>https://yuren109.github.io/tags/Diophantine-Equation-Inequality-Symmetry-Bounding/</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -165,7 +165,14 @@
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/tags/Diophantine-Equation-Inequality-Symmetry-Bounding/</loc>
+    <loc>https://yuren109.github.io/tags/Diophantine-Equation-Bounding/</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuren109.github.io/tags/Divisibility-Modular-Arithmetic-Prime-Powers-Factorization/</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -179,7 +186,7 @@
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/tags/Divisibility-Modular-Arithmetic-Prime-Powers-Factorization/</loc>
+    <loc>https://yuren109.github.io/tags/Diophantine-Equation-Chinese-Remainder-Theorem-Modular-Arithmetic/</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -206,13 +213,6 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>https://yuren109.github.io/tags/Diophantine-Equation-Chinese-Remainder-Theorem-Modular-Arithmetic/</loc>
-    <lastmod>2026-09-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
   
   <url>
@@ -230,14 +230,14 @@
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/categories/mathematics/math-olympiad-problems/algebra/</loc>
+    <loc>https://yuren109.github.io/categories/mathematics/math-olympiad-problems/Number-Theory/</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/categories/mathematics/math-olympiad-problems/Number-Theory/</loc>
+    <loc>https://yuren109.github.io/categories/mathematics/math-olympiad-problems/algebra/</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
