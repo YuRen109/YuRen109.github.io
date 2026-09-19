@@ -1508,7 +1508,7 @@ pre code {
     transition: all 0.2s ease-in-out;
   }
   .links-of-author a::before {
-    background: #4eadd5;
+    background: #ffaf29;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -3448,6 +3448,23 @@ details.custom-proof-details[open] > summary::after {
     min-width: 100% !important;
     max-width: none !important;
   }
+}
+.difficulty-pagination {
+  margin: 35px 0 20px;
+  text-align: center;
+}
+.difficulty-pagination a,
+.difficulty-pagination span {
+  display: inline-block;
+  min-width: 20px;
+  margin: 0 6px;
+  padding: 5px 8px;
+  text-align: center;
+  text-decoration: none;
+}
+.difficulty-pagination .current {
+  background: #ccc;
+  color: #fff;
 }
 @keyframes categoryContentFadeIn {
   from {
