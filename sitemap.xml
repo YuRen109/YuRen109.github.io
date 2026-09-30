@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://yuren109.github.io/PUT-2024-B3/</loc>
-    
-    <lastmod>2026-09-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://yuren109.github.io/JMO-R2-2019-P1/</loc>
     
     <lastmod>2026-09-30</lastmod>
@@ -295,7 +286,7 @@
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/tags/Functional-Equation-Additivity-Monotonicity/</loc>
+    <loc>https://yuren109.github.io/tags/Inequality-Symmetry/</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -309,7 +300,7 @@
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/tags/Inequality-Symmetry/</loc>
+    <loc>https://yuren109.github.io/tags/Functional-Equation-Additivity-Monotonicity/</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -323,13 +314,6 @@
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/tags/Transcendental-Equation-Trigonometric-Function-Inequality-Root-Estimate/</loc>
-    <lastmod>2026-09-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://yuren109.github.io/tags/Diophantine-Equation-Chinese-Remainder-Theorem-Modular-Arithmetic/</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -337,14 +321,14 @@
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/tags/Functional-Equation-Irrational-Numbers/</loc>
+    <loc>https://yuren109.github.io/tags/Diophantine-Equation-Modular-Arithmetic-Infinite-Descent/</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/tags/Diophantine-Equation-Modular-Arithmetic-Infinite-Descent/</loc>
+    <loc>https://yuren109.github.io/tags/Functional-Equation-Irrational-Numbers/</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -389,13 +373,6 @@
   
   <url>
     <loc>https://yuren109.github.io/categories/mathematics/math-olympiad-problems/Combinatorics/</loc>
-    <lastmod>2026-09-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://yuren109.github.io/categories/mathematics/University-Math-Competition-Problems/Analysis/</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
