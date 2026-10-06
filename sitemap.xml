@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://yuren109.github.io/AMM-1986-E3037/</loc>
+    
+    <lastmod>2026-10-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuren109.github.io/notation/mathematical-notation.html</loc>
+    
+    <lastmod>2026-10-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuren109.github.io/IMO-2025-shortlist-N7/</loc>
+    
+    <lastmod>2026-10-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://yuren109.github.io/PUT-1972-A5/</loc>
     
     <lastmod>2026-10-06</lastmod>
@@ -14,15 +41,6 @@
     <loc>https://yuren109.github.io/USAJMO-2026-P1/</loc>
     
     <lastmod>2026-10-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yuren109.github.io/IMO-2025-shortlist-N7/</loc>
-    
-    <lastmod>2026-10-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -137,15 +155,6 @@
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/notation/mathematical-notation.html</loc>
-    
-    <lastmod>2026-09-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://yuren109.github.io/PUT-2024-A1/</loc>
     
     <lastmod>2026-09-18</lastmod>
@@ -245,7 +254,7 @@
 
   
   <url>
-    <loc>https://yuren109.github.io/tags/Divisibility-Modular-Arithmetic-Prime-Powers-Factorization/</loc>
+    <loc>https://yuren109.github.io/tags/Factorization-Divisibility-Euler-s-Totient-Function/</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -280,21 +289,7 @@
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/tags/Injection-Pigeonhole-Principle-Extremal-Principle/</loc>
-    <lastmod>2026-10-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://yuren109.github.io/tags/Functional-Equation-Injectivity-Recurrence-Relation/</loc>
-    <lastmod>2026-10-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://yuren109.github.io/tags/Diophantine-Equation-Fermat-s-Little-Theorem-p-adic-Valuation-Factorial/</loc>
+    <loc>https://yuren109.github.io/tags/Divisibility-Modular-Arithmetic-Prime-Powers-Factorization/</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -308,28 +303,14 @@
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/tags/Inequality-Symmetry/</loc>
-    <lastmod>2026-10-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://yuren109.github.io/tags/Functional-Equation-Additivity-Monotonicity/</loc>
-    <lastmod>2026-10-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://yuren109.github.io/tags/Fermat-s-Little-Theorem-Dirichlet-s-Theorem-p-adic-Valuation-Lifting-the-exponent-Lemma/</loc>
-    <lastmod>2026-10-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://yuren109.github.io/tags/Functional-Equation-Injectivity-Recurrence-Relation-Translation-Equation/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuren109.github.io/tags/Functional-Equation-Injectivity-Recurrence-Relation/</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -343,21 +324,35 @@
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/tags/Diophantine-Equation-Inequality-Bounding/</loc>
+    <loc>https://yuren109.github.io/tags/Injection-Pigeonhole-Principle-Extremal-Principle/</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/tags/Polynomial-Identity-Rational-Root-Theorem-Rationality-Integrality/</loc>
+    <loc>https://yuren109.github.io/tags/Inequality-Symmetry/</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/tags/Divisibility-Fermat-s-Little-Theorem-Multiplicative-Order/</loc>
+    <loc>https://yuren109.github.io/tags/Diophantine-Equation-Fermat-s-Little-Theorem-p-adic-Valuation-Factorial/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuren109.github.io/tags/Functional-Equation-Additivity-Monotonicity/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuren109.github.io/tags/Fermat-s-Little-Theorem-Fermat-Euler-Theorem-Dirichlet-s-Theorem-p-adic-Valuation-Lifting-the-exponent-Lemma/</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -371,7 +366,7 @@
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/tags/Diophantine-Equation-Inequality/</loc>
+    <loc>https://yuren109.github.io/tags/Diophantine-Equation-Inequality-Bounding/</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -385,7 +380,7 @@
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/tags/Diophantine-Equation-Modular-Arithmetic-Infinite-Descent/</loc>
+    <loc>https://yuren109.github.io/tags/Polynomial-Identity-Rational-Root-Theorem-Rationality-Integrality/</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -393,6 +388,27 @@
   
   <url>
     <loc>https://yuren109.github.io/tags/Functional-Equation-Irrational-Numbers/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuren109.github.io/tags/Divisibility-Fermat-s-Little-Theorem-Multiplicative-Order/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuren109.github.io/tags/Diophantine-Equation-Modular-Arithmetic-Infinite-Descent/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuren109.github.io/tags/Diophantine-Equation-Inequality/</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -408,6 +424,13 @@
   </url>
   
   <url>
+    <loc>https://yuren109.github.io/categories/mathematics/Mathematical-Problems/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://yuren109.github.io/categories/mathematics/math-olympiad-problems/</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -415,7 +438,7 @@
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/categories/mathematics/math-olympiad-problems/algebra/</loc>
+    <loc>https://yuren109.github.io/categories/mathematics/Mathematical-Problems/Number-Theory/</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -423,6 +446,13 @@
   
   <url>
     <loc>https://yuren109.github.io/categories/mathematics/math-olympiad-problems/Number-Theory/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuren109.github.io/categories/mathematics/math-olympiad-problems/algebra/</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
