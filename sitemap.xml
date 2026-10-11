@@ -270,13 +270,6 @@
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/tags/Functional-Equation-Recurrence-Relation-Divisibility/</loc>
-    <lastmod>2026-10-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://yuren109.github.io/tags/Inequality-Mathematical-Induction-Calculus/</loc>
     <lastmod>2026-10-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -284,7 +277,7 @@
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/tags/Functional-Equation-Injectivity-Recurrence-Relation/</loc>
+    <loc>https://yuren109.github.io/tags/Functional-Equation-Recurrence-Relation-Divisibility/</loc>
     <lastmod>2026-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -292,6 +285,13 @@
   
   <url>
     <loc>https://yuren109.github.io/tags/Functional-Equation-Injectivity-Recurrence-Relation-Translation-Equation/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuren109.github.io/tags/Functional-Equation-Injectivity-Recurrence-Relation/</loc>
     <lastmod>2026-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -347,14 +347,14 @@
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/tags/Modular-Arithmetic-Parity-Factorization/</loc>
+    <loc>https://yuren109.github.io/tags/Divisibility-Modular-Arithmetic-Prime-Powers-Factorization/</loc>
     <lastmod>2026-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/tags/Divisibility-Modular-Arithmetic-Prime-Powers-Factorization/</loc>
+    <loc>https://yuren109.github.io/tags/Modular-Arithmetic-Parity-Factorization/</loc>
     <lastmod>2026-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -382,20 +382,6 @@
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/tags/Diophantine-Equation-Heron-s-Formula-Pell-s-Equation/</loc>
-    <lastmod>2026-10-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://yuren109.github.io/tags/Fermat-s-Little-Theorem-Fermat-Euler-Theorem-Dirichlet-s-Theorem-p-adic-Valuation-Lifting-the-exponent-Lemma/</loc>
-    <lastmod>2026-10-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://yuren109.github.io/tags/Diophantine-Equation-Inequality-Bounding/</loc>
     <lastmod>2026-10-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -410,7 +396,7 @@
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/tags/Diophantine-Equation-Modular-Arithmetic-Infinite-Descent/</loc>
+    <loc>https://yuren109.github.io/tags/Fermat-s-Little-Theorem-Fermat-Euler-Theorem-Dirichlet-s-Theorem-p-adic-Valuation-Lifting-the-exponent-Lemma/</loc>
     <lastmod>2026-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -418,6 +404,20 @@
   
   <url>
     <loc>https://yuren109.github.io/tags/Divisibility-Fermat-s-Little-Theorem-Multiplicative-Order/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuren109.github.io/tags/Diophantine-Equation-Heron-s-Formula-Pell-s-Equation/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuren109.github.io/tags/Diophantine-Equation-Modular-Arithmetic-Infinite-Descent/</loc>
     <lastmod>2026-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
