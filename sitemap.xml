@@ -300,14 +300,14 @@
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/tags/Inequality-Symmetry/</loc>
+    <loc>https://yuren109.github.io/tags/Functional-Equation-Injectivity-Recurrence-Relation/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/tags/Functional-Equation-Injectivity-Recurrence-Relation/</loc>
+    <loc>https://yuren109.github.io/tags/Inequality-Symmetry/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -342,13 +342,6 @@
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/tags/Modular-Arithmetic-Parity-Factorization/</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://yuren109.github.io/tags/Factorization-Divisibility-Euler-s-Totient-Function/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -370,7 +363,14 @@
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/tags/Functional-Equation-Multiplicative-Function-Monotonicity/</loc>
+    <loc>https://yuren109.github.io/tags/Modular-Arithmetic-Parity-Factorization/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuren109.github.io/tags/Functional-Equation-Multiplicative-Function-Monotonicity-Bertrand-Chebyshev-Theorem/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -384,7 +384,7 @@
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/tags/Diophantine-Equation-Fermat-s-Little-Theorem-p-adic-Valuation-Factorial/</loc>
+    <loc>https://yuren109.github.io/tags/Diophantine-Equation-Inequality-Symmetry-Bounding/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -398,7 +398,14 @@
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/tags/Diophantine-Equation-Inequality-Symmetry-Bounding/</loc>
+    <loc>https://yuren109.github.io/tags/Diophantine-Equation-Fermat-s-Little-Theorem-p-adic-Valuation-Factorial/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuren109.github.io/tags/Diophantine-Equation-Inequality-Bounding/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -413,13 +420,6 @@
   
   <url>
     <loc>https://yuren109.github.io/tags/Diophantine-Equation-Heron-s-Formula-Pell-s-Equation/</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://yuren109.github.io/tags/Diophantine-Equation-Inequality-Bounding/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -470,13 +470,6 @@
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/categories/mathematics/math-olympiad-problems/Number-Theory/</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://yuren109.github.io/categories/mathematics/Mathematical-Problems/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -491,6 +484,13 @@
   </url>
   
   <url>
+    <loc>https://yuren109.github.io/categories/mathematics/math-olympiad-problems/Number-Theory/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://yuren109.github.io/categories/mathematics/Number-Theory/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -498,14 +498,14 @@
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/categories/mathematics/Mathematical-Problems/Number-Theory/</loc>
+    <loc>https://yuren109.github.io/categories/mathematics/University-Math-Competition-Problems/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/categories/mathematics/University-Math-Competition-Problems/</loc>
+    <loc>https://yuren109.github.io/categories/mathematics/Mathematical-Problems/Number-Theory/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
