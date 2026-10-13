@@ -279,20 +279,6 @@
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/tags/Functional-Equation-Injectivity-Recurrence-Relation-Translation-Equation/</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://yuren109.github.io/tags/Inequality-Symmetry/</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://yuren109.github.io/tags/Functional-Equation-Recurrence-Relation-Divisibility/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -307,35 +293,14 @@
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/tags/Functional-Equation-Additivity-Monotonicity/</loc>
+    <loc>https://yuren109.github.io/tags/Functional-Equation-Injectivity-Recurrence-Relation-Translation-Equation/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/tags/Functional-Equation/</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://yuren109.github.io/tags/Polynomial-Identity-Rational-Root-Theorem-Rationality-Integrality/</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://yuren109.github.io/tags/Functional-Equation-Irrational-Numbers/</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://yuren109.github.io/tags/Injection-Pigeonhole-Principle-Extremal-Principle/</loc>
+    <loc>https://yuren109.github.io/tags/Inequality-Symmetry/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -349,7 +314,35 @@
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/tags/Divisibility-Modular-Arithmetic-Prime-Powers-Factorization/</loc>
+    <loc>https://yuren109.github.io/tags/Functional-Equation/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuren109.github.io/tags/Functional-Equation-Additivity-Monotonicity/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuren109.github.io/tags/Functional-Equation-Irrational-Numbers/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuren109.github.io/tags/Polynomial-Identity-Rational-Root-Theorem-Rationality-Integrality/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuren109.github.io/tags/Modular-Arithmetic-Parity-Factorization/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -363,7 +356,14 @@
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/tags/Modular-Arithmetic-Parity-Factorization/</loc>
+    <loc>https://yuren109.github.io/tags/Injection-Pigeonhole-Principle-Extremal-Principle/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuren109.github.io/tags/Divisibility-Modular-Arithmetic-Prime-Powers-Factorization/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -384,13 +384,6 @@
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/tags/Diophantine-Equation-Inequality-Symmetry-Bounding/</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://yuren109.github.io/tags/Diophantine-Equation-Fermat-s-Little-Theorem-p-adic-Valuation-Factorial/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -405,7 +398,7 @@
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/tags/Diophantine-Equation-Inequality-Bounding/</loc>
+    <loc>https://yuren109.github.io/tags/Diophantine-Equation-Inequality-Symmetry-Bounding/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -419,14 +412,21 @@
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/tags/Divisibility-Fermat-s-Little-Theorem-Multiplicative-Order/</loc>
+    <loc>https://yuren109.github.io/tags/Diophantine-Equation-Heron-s-Formula-Pell-s-Equation/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/tags/Diophantine-Equation-Heron-s-Formula-Pell-s-Equation/</loc>
+    <loc>https://yuren109.github.io/tags/Diophantine-Equation-Inequality-Bounding/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuren109.github.io/tags/Divisibility-Fermat-s-Little-Theorem-Multiplicative-Order/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -470,13 +470,6 @@
   </url>
   
   <url>
-    <loc>https://yuren109.github.io/categories/mathematics/math-olympiad-problems/Combinatorics/</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://yuren109.github.io/categories/mathematics/math-olympiad-problems/Number-Theory/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -485,6 +478,13 @@
   
   <url>
     <loc>https://yuren109.github.io/categories/mathematics/Mathematical-Problems/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuren109.github.io/categories/mathematics/math-olympiad-problems/Combinatorics/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
