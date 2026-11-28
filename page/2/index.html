@@ -80,7 +80,6 @@
   <noscript>
     <link rel="stylesheet" href="/css/noscript.css">
   </noscript>
-<link rel="alternate" href="/atom.xml" title="Leo Chen's Blog" type="application/atom+xml">
 <style>mjx-container[jax="SVG"] {
   direction: ltr;
 }
@@ -193,7 +192,8 @@ mjx-container[display="true"] {
 mjx-container[display="true"] + br {
   display: none;
 }
-</style></head>
+</style><link rel="alternate" href="/atom.xml" title="Leo Chen's Blog" type="application/atom+xml">
+</head>
 
 <body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
   <div class="headband"></div>
@@ -304,7 +304,7 @@ mjx-container[display="true"] + br {
         <span class="site-state-item-name">categories</span></a>
       </div>
       <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">64</span>
+        <span class="site-state-item-count">67</span>
         <span class="site-state-item-name">tags</span>
       </div>
   </nav>
@@ -502,169 +502,6 @@ mjx-container[display="true"] + br {
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://yuren109.github.io/combinatorics/BMO2-2026-P1/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/hammer.png">
-      <meta itemprop="name" content="Yu-Ren Chen">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Leo Chen's Blog">
-      <meta itemprop="description" content="Personal Experience Sharing">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content=" | Leo Chen's Blog">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/combinatorics/BMO2-2026-P1/" class="post-title-link" itemprop="url">BMO1 2026 P1</a>
-        </h2>
-          <div class="post-difficulty">
-            <span class="post-difficulty-stars">
-              <span style="font-size: 1.5em; letter-spacing: 0.15em;">★</span>
-            </span>
-          </div>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2026-11-23 00:00:00" itemprop="dateCreated datePublished" datetime="2026-11-23T00:00:00Z">2026-11-23</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/mathematics/" itemprop="url" rel="index"><span itemprop="name">Mathematics</span></a>
-        </span>
-          , 
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/mathematics/Combinatorics/" itemprop="url" rel="index"><span itemprop="name">Combinatorics</span></a>
-        </span>
-          , 
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/mathematics/Combinatorics/Problems/" itemprop="url" rel="index"><span itemprop="name">Problems</span></a>
-        </span>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-          <h1 id="Problem"><a href="#Problem" class="headerlink" title="Problem"></a><span id="problem"></span>Problem</h1><p>Each of the integers <mjx-container class="MathJax" jax="SVG" overflow="overflow"><svg style="vertical-align: -0.437ex;" xmlns="http://www.w3.org/2000/svg" width="11.951ex" height="1.943ex" role="img" focusable="false" viewBox="0 -666 5282.3 859"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math" data-latex="1,2,3,\ldots,26"><g data-mml-node="mn" data-latex="1"><path data-c="31" d="M269 666C228 624 168 603 89 603L89 564C141 564 184 572 217 588L217 82C217 64 213 52 204 47C195 42 170 39 130 39L95 39L95 0C120 2 174 3 257 3C340 3 394 2 419 0L419 39L384 39C343 39 318 42 310 47C302 52 297 64 297 82L297 636C297 660 295 666 269 666Z"></path></g><g data-mml-node="mo" data-latex="," transform="translate(500,0)"><path data-c="2C" d="M139 106C107 106 86 82 86 50C86 20 109-5 139-5C153-5 165-1 174 8L175 0C175-63 154-117 112-160C105-168 101-174 101-178C101-188 105-193 114-193C123-193 135-181 152-158C186-110 203-57 203 0C203 53 185 106 139 106Z"></path></g><g data-mml-node="mn" data-latex="2" transform="translate(944.7,0)"><path data-c="32" d="M237 666C186 666 143 648 106 612C69 576 50 534 50 483C50 449 75 424 106 424C136 424 161 450 161 480C161 513 137 536 105 536C102 536 100 536 98 535C117 584 161 627 224 627C306 627 352 556 352 470C352 403 318 331 250 255L62 43C49 28 50 29 50 0L421 0L450 180L417 180C409 129 402 100 396 91C391 86 361 84 306 84L139 84L236 179C304 243 390 312 419 365C439 400 449 435 449 470C449 588 357 666 237 666Z"></path></g><g data-mml-node="mo" data-latex="," transform="translate(1444.7,0)"><path data-c="2C" d="M139 106C107 106 86 82 86 50C86 20 109-5 139-5C153-5 165-1 174 8L175 0C175-63 154-117 112-160C105-168 101-174 101-178C101-188 105-193 114-193C123-193 135-181 152-158C186-110 203-57 203 0C203 53 185 106 139 106Z"></path></g><g data-mml-node="mn" data-latex="3" transform="translate(1889.3,0)"><path data-c="33" d="M303 353C369 378 431 441 431 526C431 569 410 604 369 631C333 654 292 666 246 666C201 666 162 654 127 631C88 605 68 571 68 528C68 495 90 472 122 472C154 472 176 495 176 527C176 560 157 578 119 580C145 615 186 633 242 633C302 633 332 598 332 527C332 485 324 450 309 421C282 373 245 364 183 364C171 362 165 357 165 348C165 333 172 333 192 333L235 333C310 333 348 280 348 173C348 88 317 14 241 14C176 14 128 36 99 80C134 79 160 105 160 139C160 173 135 198 101 198C62 198 42 178 42 137C42 88 64 49 108 18C147-9 193-22 244-22C301-22 350-3 393 34C436 71 457 117 457 173C457 267 383 332 303 353Z"></path></g><g data-mml-node="mo" data-latex="," transform="translate(2389.3,0)"><path data-c="2C" d="M139 106C107 106 86 82 86 50C86 20 109-5 139-5C153-5 165-1 174 8L175 0C175-63 154-117 112-160C105-168 101-174 101-178C101-188 105-193 114-193C123-193 135-181 152-158C186-110 203-57 203 0C203 53 185 106 139 106Z"></path></g><g data-mml-node="mo" data-latex="\ldots" transform="translate(2834,0)"><path data-c="2026" d="M751 53C751 83 725 106 695 106C664 106 638 83 638 53C638 23 664 0 695 0C725 0 751 23 751 53M475 53C475 83 449 106 419 106C388 106 363 83 363 53C363 23 388 0 419 0C449 0 475 23 475 53M200 53C200 83 174 106 143 106C113 106 87 83 87 53C87 23 113 0 143 0C173 0 200 23 200 53Z"></path></g><g data-mml-node="mo" data-latex="," transform="translate(3837.7,0)"><path data-c="2C" d="M139 106C107 106 86 82 86 50C86 20 109-5 139-5C153-5 165-1 174 8L175 0C175-63 154-117 112-160C105-168 101-174 101-178C101-188 105-193 114-193C123-193 135-181 152-158C186-110 203-57 203 0C203 53 185 106 139 106Z"></path></g><g data-mml-node="mn" data-latex="26" transform="translate(4282.3,0)"><path data-c="32" d="M237 666C186 666 143 648 106 612C69 576 50 534 50 483C50 449 75 424 106 424C136 424 161 450 161 480C161 513 137 536 105 536C102 536 100 536 98 535C117 584 161 627 224 627C306 627 352 556 352 470C352 403 318 331 250 255L62 43C49 28 50 29 50 0L421 0L450 180L417 180C409 129 402 100 396 91C391 86 361 84 306 84L139 84L236 179C304 243 390 312 419 365C439 400 449 435 449 470C449 588 357 666 237 666Z"></path><path data-c="36" d="M383 504C416 504 432 521 432 555C432 627 378 666 304 666C221 666 155 627 106 548C63 480 42 403 42 316C42 189 65 100 112 47C152 1 198-22 251-22C312-22 362 1 401 47C438 91 457 144 457 205C457 266 439 318 403 361C365 407 316 431 257 431C205 431 165 402 138 346L138 352C138 465 166 561 226 605C252 624 279 633 306 633C342 633 368 623 385 602C351 602 334 583 334 553C334 525 355 504 383 504M344 340C355 317 361 272 361 206C361 141 356 98 345 76C325 35 294 14 251 14C222 14 200 24 184 44C171 60 162 74 158 85C146 116 140 163 140 227C140 255 144 282 151 308C164 355 201 399 256 399C295 399 325 379 344 340Z" transform="translate(500,0)"></path></g></g></g></svg></mjx-container> is coloured either red or blue, and at least two of them are red.  </p>
-<p>The colouring is called <em>snug</em> if the difference between the largest red number and the smallest red number is equal to the number of red numbers.</p>
-<p>Determine, with proof, the number of snug colourings.</p>
-<h1 id="Source"><a href="#Source" class="headerlink" title="Source"></a>Source</h1><p><span class="exturl" data-url="aHR0cHM6Ly9ibW9zLnVrbXQub3JnLnVrL2hvbWUvYm1vMS0yMDI3LnBkZg==">British Mathematical Olympiad Round 1 2026 Problems<i class="fa fa-external-link-alt"></i></span></p>
-<style>
-  details.custom-collapse {
-    margin: 1.5em 0;
-  }
-
-  details.custom-collapse > summary {
-    cursor: pointer;
-    outline: none;
-    list-style: none;
-  }
-
-  details.custom-collapse > summary::-webkit-details-marker {
-    display: none;
-  }
-
-  details.custom-collapse > summary h1 {
-    display: block;
-    margin-top: 0;
-    margin-bottom: 0.5em;
-    transition: opacity 0.2s ease;
-  }
-
-  details.custom-collapse > summary:hover h1 {
-    opacity: 0.8;
-  }
-
-  /* 收起：右箭頭 */
-  details.custom-collapse > summary h1::after {
-    content: "▶";
-    display: inline-block;
-    margin-left: 0.5em;
-    font-size: 0.7em;
-    vertical-align: middle;
-    transition: transform 0.2s ease;
-    color: inherit;
-  }
-
-  /* 展開：箭頭向下 */
-  details.custom-collapse[open] > summary h1::after {
-    transform: rotate(90deg);
-  }
-
-  /* 內容 */
-  .collapse-content {
-    padding-left: 0.5rem;
-    border-left: 3px solid var(--btn-default-bg, #ccc);
-    margin-top: 0.5rem;
-  }
-</style>
-
-<details class="custom-collapse">
-  <summary>
-    <h1>Key Idea</h1>
-  </summary>
-
-  <div class="collapse-content">
-
-<p>By the definition of a snug colouring, there must be exactly one blue number between the largest red number and the smallest red nummber.</p>
-  </div>
-</details>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/combinatorics/BMO2-2026-P1/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
     <link itemprop="mainEntityOfPage" href="https://yuren109.github.io/algebra/BMO1-2025-P2/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -813,6 +650,169 @@ z^2  + 2xy &amp;= 1.
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/algebra/BMO1-2025-P2/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://yuren109.github.io/combinatorics/BMO2-2026-P1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/hammer.png">
+      <meta itemprop="name" content="Yu-Ren Chen">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Leo Chen's Blog">
+      <meta itemprop="description" content="Personal Experience Sharing">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | Leo Chen's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/combinatorics/BMO2-2026-P1/" class="post-title-link" itemprop="url">BMO1 2026 P1</a>
+        </h2>
+          <div class="post-difficulty">
+            <span class="post-difficulty-stars">
+              <span style="font-size: 1.5em; letter-spacing: 0.15em;">★</span>
+            </span>
+          </div>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2026-11-23 00:00:00" itemprop="dateCreated datePublished" datetime="2026-11-23T00:00:00Z">2026-11-23</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/mathematics/" itemprop="url" rel="index"><span itemprop="name">Mathematics</span></a>
+        </span>
+          , 
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/mathematics/Combinatorics/" itemprop="url" rel="index"><span itemprop="name">Combinatorics</span></a>
+        </span>
+          , 
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/mathematics/Combinatorics/Problems/" itemprop="url" rel="index"><span itemprop="name">Problems</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+          <h1 id="Problem"><a href="#Problem" class="headerlink" title="Problem"></a><span id="problem"></span>Problem</h1><p>Each of the integers <mjx-container class="MathJax" jax="SVG" overflow="overflow"><svg style="vertical-align: -0.437ex;" xmlns="http://www.w3.org/2000/svg" width="11.951ex" height="1.943ex" role="img" focusable="false" viewBox="0 -666 5282.3 859"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math" data-latex="1,2,3,\ldots,26"><g data-mml-node="mn" data-latex="1"><path data-c="31" d="M269 666C228 624 168 603 89 603L89 564C141 564 184 572 217 588L217 82C217 64 213 52 204 47C195 42 170 39 130 39L95 39L95 0C120 2 174 3 257 3C340 3 394 2 419 0L419 39L384 39C343 39 318 42 310 47C302 52 297 64 297 82L297 636C297 660 295 666 269 666Z"></path></g><g data-mml-node="mo" data-latex="," transform="translate(500,0)"><path data-c="2C" d="M139 106C107 106 86 82 86 50C86 20 109-5 139-5C153-5 165-1 174 8L175 0C175-63 154-117 112-160C105-168 101-174 101-178C101-188 105-193 114-193C123-193 135-181 152-158C186-110 203-57 203 0C203 53 185 106 139 106Z"></path></g><g data-mml-node="mn" data-latex="2" transform="translate(944.7,0)"><path data-c="32" d="M237 666C186 666 143 648 106 612C69 576 50 534 50 483C50 449 75 424 106 424C136 424 161 450 161 480C161 513 137 536 105 536C102 536 100 536 98 535C117 584 161 627 224 627C306 627 352 556 352 470C352 403 318 331 250 255L62 43C49 28 50 29 50 0L421 0L450 180L417 180C409 129 402 100 396 91C391 86 361 84 306 84L139 84L236 179C304 243 390 312 419 365C439 400 449 435 449 470C449 588 357 666 237 666Z"></path></g><g data-mml-node="mo" data-latex="," transform="translate(1444.7,0)"><path data-c="2C" d="M139 106C107 106 86 82 86 50C86 20 109-5 139-5C153-5 165-1 174 8L175 0C175-63 154-117 112-160C105-168 101-174 101-178C101-188 105-193 114-193C123-193 135-181 152-158C186-110 203-57 203 0C203 53 185 106 139 106Z"></path></g><g data-mml-node="mn" data-latex="3" transform="translate(1889.3,0)"><path data-c="33" d="M303 353C369 378 431 441 431 526C431 569 410 604 369 631C333 654 292 666 246 666C201 666 162 654 127 631C88 605 68 571 68 528C68 495 90 472 122 472C154 472 176 495 176 527C176 560 157 578 119 580C145 615 186 633 242 633C302 633 332 598 332 527C332 485 324 450 309 421C282 373 245 364 183 364C171 362 165 357 165 348C165 333 172 333 192 333L235 333C310 333 348 280 348 173C348 88 317 14 241 14C176 14 128 36 99 80C134 79 160 105 160 139C160 173 135 198 101 198C62 198 42 178 42 137C42 88 64 49 108 18C147-9 193-22 244-22C301-22 350-3 393 34C436 71 457 117 457 173C457 267 383 332 303 353Z"></path></g><g data-mml-node="mo" data-latex="," transform="translate(2389.3,0)"><path data-c="2C" d="M139 106C107 106 86 82 86 50C86 20 109-5 139-5C153-5 165-1 174 8L175 0C175-63 154-117 112-160C105-168 101-174 101-178C101-188 105-193 114-193C123-193 135-181 152-158C186-110 203-57 203 0C203 53 185 106 139 106Z"></path></g><g data-mml-node="mo" data-latex="\ldots" transform="translate(2834,0)"><path data-c="2026" d="M751 53C751 83 725 106 695 106C664 106 638 83 638 53C638 23 664 0 695 0C725 0 751 23 751 53M475 53C475 83 449 106 419 106C388 106 363 83 363 53C363 23 388 0 419 0C449 0 475 23 475 53M200 53C200 83 174 106 143 106C113 106 87 83 87 53C87 23 113 0 143 0C173 0 200 23 200 53Z"></path></g><g data-mml-node="mo" data-latex="," transform="translate(3837.7,0)"><path data-c="2C" d="M139 106C107 106 86 82 86 50C86 20 109-5 139-5C153-5 165-1 174 8L175 0C175-63 154-117 112-160C105-168 101-174 101-178C101-188 105-193 114-193C123-193 135-181 152-158C186-110 203-57 203 0C203 53 185 106 139 106Z"></path></g><g data-mml-node="mn" data-latex="26" transform="translate(4282.3,0)"><path data-c="32" d="M237 666C186 666 143 648 106 612C69 576 50 534 50 483C50 449 75 424 106 424C136 424 161 450 161 480C161 513 137 536 105 536C102 536 100 536 98 535C117 584 161 627 224 627C306 627 352 556 352 470C352 403 318 331 250 255L62 43C49 28 50 29 50 0L421 0L450 180L417 180C409 129 402 100 396 91C391 86 361 84 306 84L139 84L236 179C304 243 390 312 419 365C439 400 449 435 449 470C449 588 357 666 237 666Z"></path><path data-c="36" d="M383 504C416 504 432 521 432 555C432 627 378 666 304 666C221 666 155 627 106 548C63 480 42 403 42 316C42 189 65 100 112 47C152 1 198-22 251-22C312-22 362 1 401 47C438 91 457 144 457 205C457 266 439 318 403 361C365 407 316 431 257 431C205 431 165 402 138 346L138 352C138 465 166 561 226 605C252 624 279 633 306 633C342 633 368 623 385 602C351 602 334 583 334 553C334 525 355 504 383 504M344 340C355 317 361 272 361 206C361 141 356 98 345 76C325 35 294 14 251 14C222 14 200 24 184 44C171 60 162 74 158 85C146 116 140 163 140 227C140 255 144 282 151 308C164 355 201 399 256 399C295 399 325 379 344 340Z" transform="translate(500,0)"></path></g></g></g></svg></mjx-container> is coloured either red or blue, and at least two of them are red.  </p>
+<p>The colouring is called <em>snug</em> if the difference between the largest red number and the smallest red number is equal to the number of red numbers.</p>
+<p>Determine, with proof, the number of snug colourings.</p>
+<h1 id="Source"><a href="#Source" class="headerlink" title="Source"></a>Source</h1><p><span class="exturl" data-url="aHR0cHM6Ly9ibW9zLnVrbXQub3JnLnVrL2hvbWUvYm1vMS0yMDI3LnBkZg==">British Mathematical Olympiad Round 1 2026 Problems<i class="fa fa-external-link-alt"></i></span></p>
+<style>
+  details.custom-collapse {
+    margin: 1.5em 0;
+  }
+
+  details.custom-collapse > summary {
+    cursor: pointer;
+    outline: none;
+    list-style: none;
+  }
+
+  details.custom-collapse > summary::-webkit-details-marker {
+    display: none;
+  }
+
+  details.custom-collapse > summary h1 {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    transition: opacity 0.2s ease;
+  }
+
+  details.custom-collapse > summary:hover h1 {
+    opacity: 0.8;
+  }
+
+  /* 收起：右箭頭 */
+  details.custom-collapse > summary h1::after {
+    content: "▶";
+    display: inline-block;
+    margin-left: 0.5em;
+    font-size: 0.7em;
+    vertical-align: middle;
+    transition: transform 0.2s ease;
+    color: inherit;
+  }
+
+  /* 展開：箭頭向下 */
+  details.custom-collapse[open] > summary h1::after {
+    transform: rotate(90deg);
+  }
+
+  /* 內容 */
+  .collapse-content {
+    padding-left: 0.5rem;
+    border-left: 3px solid var(--btn-default-bg, #ccc);
+    margin-top: 0.5rem;
+  }
+</style>
+
+<details class="custom-collapse">
+  <summary>
+    <h1>Key Idea</h1>
+  </summary>
+
+  <div class="collapse-content">
+
+<p>By the definition of a snug colouring, there must be exactly one blue number between the largest red number and the smallest red nummber.</p>
+  </div>
+</details>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/combinatorics/BMO2-2026-P1/#more" rel="contents">
                 Read more &raquo;
               </a>
             </div>
